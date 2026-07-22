@@ -14,7 +14,7 @@ This is you building your **Mindset OS** — the system you will use for the nex
 
 * Be honest.
 * Be specific.
-* Be practical.
+* Be practical.1
 * Write like an adult professional: clear sentences, no one-liners.
 
 You will reuse this in later weeks. So do it properly once.

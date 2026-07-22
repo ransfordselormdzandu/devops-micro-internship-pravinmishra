@@ -20,7 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-Add your screenshot here.
+![alt text](screenshots/04_01.png)
 
 ---
 
@@ -34,19 +34,39 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+Task-Model Fit:
+The cost optimizer uses Claude Haiku over Claude Sonnet because analyzing spending data and identifying patterns requires fast, high-volume processing of structured inputs rather than complex, deep reasoning.
+
+Cost Efficiency: 
+Haiku is Anthropic’s fastest and most affordable model, making it ideal for standard data-processing tasks where Sonnet’s higher cost and slower speed would be wasteful.
+
+Core Design Principle: 
+System design should match the model to the specific task complexity rather than defaulting to the most powerful option—using Haiku for cost optimization allows the tool to practice the very resource efficiency it preaches.
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
+The Principle of Least Priviledge:
+An auditor only needs to inspect and report—giving it write access creates unnecessary security risks if the agent is ever compromised.
+
+Separates Duties:
+Inspection and execution are kept separate. The auditor finds the issue, but a separate system (or human) must approve and apply the fix.
+
+Prevents Prompt Injection Attacks: 
+If an auditor reads malicious code or logs containing hidden instructions (like "delete this file"), having no write permissions ensures it cannot execute those destructive changes.
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+Single Source of Truth: You can change the model globally in one central configuration file, and the tf-writer updates automatically without needing its own code changes.
+
+Environment Flexibility: It allows the system to easily swap models based on where it's running (e.g., using a cheap/local model for testing, and a powerful model like GPT-4o for production).
+
+Consistent Settings: It automatically pulls down API keys, token limits, and temperature settings from the parent workflow, keeping the code clean and preventing duplication.
+
+In all, inherit keeps the architecture DRY (Don't Repeat Yourself) and decoupled. It lets tf-writer focus strictly on how to generate infrastructure-as-code, while leaving the decision of which engine to run on up to the main orchestrator.
 
 ---
 
@@ -54,13 +74,13 @@ Add your answer here...
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-Add your screenshot here.
+![alt text](screenshots/04_02.png)
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-Add your screenshot here.
+![alt text](screenshots/04_03.png)
 
 ---
 
@@ -74,13 +94,14 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-Add your screenshot here.
+![alt text](screenshots/04_04.png)
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+![alt text](screenshots/04_05a.png)
+![alt text](screenshots/04_05b.png)
 
 ---
 
@@ -94,7 +115,8 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-Add your screenshot here.
+[alt text](screenshots/04_06a.png).
+[alt text](screenshots/04_06b.png)
 
 ---
 
@@ -108,7 +130,7 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
+
 
 `Add your URL here`
 
