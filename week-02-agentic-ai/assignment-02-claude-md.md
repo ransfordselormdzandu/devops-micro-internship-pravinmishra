@@ -20,9 +20,9 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
-[ransford_selorm_dzandu](screenshots/02_01a.png)
-[ransford_selorm_dzandu](screenshots/02_01b.png)
-[ransford_selorm_dzandu](screenshots/02_01c.png)
+Add your screenshot here.
+
+---
 
 # Task 2 — Generate the First Draft with /init
 
@@ -34,10 +34,9 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-[ransford_selorm_dzandu](screenshots/02_02a.png)
-[ransford_selorm_dzandu](screenshots/02_02b.png)
-[ransford_selorm_dzandu](screenshots/02_02c.png)
-[ransford_selorm_dzandu](screenshots/02_02d.png)
+Add your screenshot here.
+
+---
 
 # Task 3 — Customize the CLAUDE.md
 
@@ -49,7 +48,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-[ransford_selorm_dzandu](screenshots/02_03.png)
+Add your screenshot here.
 
 ---
 
@@ -63,13 +62,14 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-[ransford_selorm_dzandu](screenshots/02_04.png)
+Add your screenshot here.
 
 ---
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
-[ransford_selorm_dzandu](screenshots/02_05.png)
+Add your screenshot here.
+
 ---
 
 # Task 5 — Commit and push your changes to your fork in GitHub
@@ -82,7 +82,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-[ransford_selorm_dzandu](screenshots/02_06.png)
+Add your screenshot here.
 
 ---
 
@@ -98,7 +98,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 Paste your forked repository URL here:
 
-https://github.com/ransfordselormdzandu/devops-micro-internship-pravinmishra
+`Add your URL here`
 
 ---
 

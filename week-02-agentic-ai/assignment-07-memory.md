@@ -88,6 +88,8 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 ## Linkedin Post Link
 
+Paste your Linkedin post link here:
+
 https://www.linkedin.com/posts/ransfordselormdzandu_devopsabrengineering-cloudabrengineering-share-7485761423609020416-yQHJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
 
 ---

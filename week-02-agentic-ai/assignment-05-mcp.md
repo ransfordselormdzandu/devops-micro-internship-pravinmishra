@@ -20,8 +20,8 @@ Generate a GitHub Personal Access Token (PAT) that will be used for MCP authenti
 
 #### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
-![alt text](screenshots/05_01a.png)
-![alt text](screenshots/05_01b.png)
+Add your screenshot here.
+
 ---
 
 # Task 2 — Create .mcp.json at the Project Root
@@ -34,7 +34,8 @@ Create and configure the `.mcp.json` file to define the GitHub MCP server.
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
-![alt text](screenshots/05_02.png)
+Add your screenshot here.
+
 ---
 
 # Task 3 — Add Your Token to settings.local.json
@@ -47,7 +48,7 @@ Store your GitHub token securely in `.claude/settings.local.json` and ensure it 
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
-![alt text](screenshots/05_03.png)
+Add your screenshot here.
 
 ---
 
@@ -61,7 +62,7 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
 
-![alt text](screenshots/05_04.png)
+Add your screenshot here.
 
 ---
 
@@ -75,8 +76,8 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 #### Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
-![alt text](screenshots/05_05a.png)
-![alt text](screenshots/05_05b.png)
+Add your screenshot here.
+
 ---
 
 # Submission Instructions
@@ -91,7 +92,9 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 ## GitHub Repository URL
 
-https://github.com/ransfordselormdzandu/devops-micro-internship-pravinmishra
+Paste your forked repository URL here:
+
+`Add your URL here`
 
 ---
 

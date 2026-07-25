@@ -46,15 +46,15 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![alt text](screenshots/08_01.png)
 
 ---
 
 ### Submission Field
 
-Blog Link:
+Blog Link: 
 
-`Add your URL here`
+https://medium.com/@selormransford9/bridging-autonomy-and-control-architecting-agentic-ai-for-modern-devops-682df21b6412
 
 ---
 
@@ -78,7 +78,7 @@ Your post must include:
 
 ### Required P.S. Line (Must Include Exactly)
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
+> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining [DMI waiting list](https://forms.gle/3hvrWJBDzsDeJoPs6) (https://forms.gle/3hvrWJBDzsDeJoPs6).**
 
 ---
 
@@ -92,7 +92,7 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![alt text](screenshots/08_02.png)
 
 ---
 
@@ -100,15 +100,35 @@ Add your screenshot here.
 
 LinkedIn Post Content (copy-paste here):
 
-```
-Paste your LinkedIn post content here
-```
+For Week 2 of the DevOps Micro Internship , we dived headfirst into setting up an end-to-end Agentic Loop from scratch. Moving from standard LLM prompts to fully functional AI agents requires a structured, production-ready stack. 
+
+- Identity & Execution (claude.md + skills.md): Defining system instructions, operational identities, and step-by-step procedures so the agent knows its exact boundaries and capabilities.
+
+- Specialized Delegation (subagents.md): Breaking down complex, multi-step workflows by assigning sub-tasks to isolated subagents instead of overloading a single prompt.
+
+- Real-World Integration (mcp.md): Harnessing Model Context Protocol (MCP) to securely connect agents directly to external tools, APIs, and environment data.
+
+- Context Retention (memory.md): Maintaining persistent memory across execution cycles so agents retain critical history and state between sessions.
+
+- Guardrails & Security (hooks-permissions): Enforcing strict permission limits, runtime validation hooks, and human-in-the-loop approvals to keep execution safe and predictable.
+
+The biggest takeaway? Autonomous agents are only as reliable as the system architecture, state management, and security guardrails you build around them. 
+
+Building and deploying software is rapidly shifting from writing static code to orchestrating intelligent, stateful agent loops and this is making the work of DevOps Engineers quite fascinating.
+
+#DevOps_Engineering #Cloud_Engineering #DMI
+
+𝗣.𝗦. 𝗧𝗵𝗶𝘀 𝗽𝗼𝘀𝘁 𝗶𝘀 𝗽𝗮𝗿𝘁 𝗼𝗳 𝘁𝗵𝗲 𝗗𝗲𝘃𝗢𝗽𝘀 𝗠𝗶𝗰𝗿𝗼 𝗜𝗻𝘁𝗲𝗿𝗻𝘀𝗵𝗶𝗽 𝘄𝗶𝘁𝗵 𝗔𝗴𝗲𝗻𝘁𝗶𝗰 𝗔𝗜 𝗖𝗼𝗵𝗼𝗿𝘁 𝟯 𝗯𝘆 𝗣𝗿𝗮𝘃𝗶𝗻 𝗠𝗶𝘀𝗵𝗿𝗮. 𝗜𝗳 𝘆𝗼𝘂'𝗿𝗲 𝗶𝗻𝘁𝗲𝗿𝗲𝘀𝘁𝗲𝗱 𝗶𝗻 𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝗗𝗲𝘃𝗢𝗽𝘀 𝗷𝗼𝘂𝗿𝗻𝗲𝘆, 𝘆𝗼𝘂 𝗰𝗮𝗻 𝗷𝗼𝗶𝗻 𝘁𝗵𝗲 𝗗𝗠𝗜 𝘄𝗮𝗶𝘁𝗶𝗻𝗴 𝗹𝗶𝘀𝘁
+🔗 https://lnkd.in/emBScRTA
+
+View image
+
 
 ---
 
 ### LinkedIn Post Link:
 
-`Add your URL here`
+https://www.linkedin.com/posts/ransfordselormdzandu_devopsabrengineering-cloudabrengineering-share-7485761423609020416-yQHJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
 
 ---
 
