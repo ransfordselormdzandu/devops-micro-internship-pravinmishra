@@ -355,39 +355,52 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Brute-Force Proof: SSH keys (4096-bit RSA and Ed25519) are mathematically impossible for hackers to guess or crack using automated tools.
+1. Brute-Force Proof: SSH keys (4096-bit RSA and Ed25519) are mathematically impossible for hackers to guess or crack using automated tools.
 
-Zero Transmission Risk: MY private key never leaves my local computer, also the server tests my identity using standard cryptography without ever seeing my key.
+2. Zero Transmission Risk: MY private key never leaves my local computer, also the server tests my identity using standard cryptography without ever seeing my key.
 
-Phishing & Interception Protection: Unlike passwords, an attacker monitoring the network or setting up a fake server cannot steal my credentials during login.
+3. Phishing & Interception Protection: Unlike passwords, an attacker monitoring the network or setting up a fake server cannot steal my credentials during login.
 
-Eliminates Weak Passwords: It removes human error, such as setting short passwords or reusing the same password across multiple servers.
+4. Eliminates Weak Passwords: It removes human error, such as setting short passwords or reusing the same password across multiple servers.
 
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Smaller Attack Surface: Every open port runs a service that could have unpatched security flaws. Fewer open ports mean fewer ways for hackers to get in.
+1. Smaller Attack Surface: Every open port runs a service that could have unpatched security flaws. Fewer open ports mean fewer ways for hackers to get in.
 
-Protects Sensitive Services: Keeping ports for databases (like MySQL on 3306 or Redis on 6379) closed to the internet stops automated brute-force and data leaks.
+2. Protects Sensitive Services: Keeping ports for databases (like MySQL on 3306 or Redis on 6379) closed to the internet stops automated brute-force and data leaks.
 
 ---
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
+Automatic Disaster Recovery: If a cloud instance reboots due to a cloud provider outage, kernel panic, system update, or power failure, Nginx will start up immediately as soon as the operating system finishes loading.
+
+Minimizes Downtime: Without auto-start enabled, your site stays down until an engineer notices the failure, SSHs into the server, and manually runs sudo systemctl start nginx.
+
+Reliability for Unattended Services: In a modern cloud setup, servers are meant to be self-healing. Enabling Nginx ensures your web tier abides by that "hands-off" reliability standard.
 
 ---
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
+Instant Bot Scrapes: Scrapers detect exposed keys on public GitHub repos within seconds.
+
+Huge Cloud Bills: Attackers use stolen AWS/Cloud keys to spin up expensive servers for crypto mining, costing thousands in hours.
+
+Full System Breaches: Leaked SSH keys or database credentials give attackers full control to steal, delete, or hold your data for ransom.
+
+Account Hijacking: Stolen API tokens (e.g., SendGrid, NPM) let bad actors send spam under your domain or inject malware into your software packages.
+
+Legal Penalties: Exposing access credentials can lead to severe fines and regulatory violations under data privacy laws (like GDPR or PCI-DSS).
 
 ---
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
+1. To stop the payment for cloud resources that are not in use.
+2. For the sake of environmental sustainability, it is very prudent and wise to stop and terminate the cloud resources when they are not in use. This will help reduce the use of water and energy which are crucial elements used by Cloud Service Providers
 
 ---
 
@@ -399,13 +412,13 @@ Write your answer here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/ransfordselormdzandu_for-week-3-in-the-devops-micro-internship-share-7487554381568020480-3q8u/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![LInkedIn Ss]](<screenshots/LinkedIn Screenshot.png>)
 
 ---
 
