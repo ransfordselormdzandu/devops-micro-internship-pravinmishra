@@ -20,25 +20,25 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-Add your screenshot here.
+![alt text](screenshots/03_01_01.png)
 
 ---
 
 #### Screenshot 2 — Output of `ip a`
 
-Add your screenshot here.
+![alt text](screenshots/03_01_02.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-Add your screenshot here.
+![alt text](screenshots/03_01_03.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-Add your screenshot here.
+![alt text](screenshots/03_01_04.png)
 
 ---
 
@@ -48,19 +48,19 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
-Write your answer here.
+Its because the website is working in the browser. Nginx has been configured to listen on port 80. that is when we run sudo systemctl status nginx, it shows running..
 
 ---
 
 **2. What proves SSH is active on port 22?**
 
-Write your answer here.
+SSH is active on port 22 because we have been able to shh into our ec2 instance and running commands in our local machine.
 
 ---
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
-Write your answer here.
+No, i have only configured my ports to port 22 and port 80
 
 ---
 
@@ -74,19 +74,19 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-Add your screenshot here.
+![alt text](screenshots/03_02_01.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
-Add your screenshot here.
+![alt text](screenshots/03_02_02.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-Add your screenshot here.
+![alt text](screenshots/03_02_03.png)
 
 ---
 
@@ -96,13 +96,18 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-Write your answer here.
+The website will got down, users will get connection errors like 502 bad Gateway leading to revenue loss for the company who hosted the website.
 
 ---
 
 **2. What's your basic rollback plan?**
 
-Write your answer here.
+step 1, I will check what failed by running	sudo systemctl status nginx
+step 2, i will find the error by running sudo journalctl -u nginx
+step 3 i will revert to last working config running	sudo cp nginx.conf.backup nginx.conf in my instance's terminal.
+step 4, I will verify whether the backup is valid by running sudo nginx -t
+step 5 i will apply restored config by running sudo systemctl reload nginx
+lastly, i will verify and confirm site is back up by running curl http://localhost:80 in my terminal.
 
 ---
 
@@ -116,19 +121,19 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-Add your screenshot here.
+![alt text](screenshots/03_03_01.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-Add your screenshot here.
+![alt text](screenshots/03_03_02.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-Add your screenshot here.
+![alt text](screenshots/03_03_03.png)
 
 ---
 
@@ -141,19 +146,19 @@ Answer the following in your own words:
 - If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
 - If no, explain what it means if the error log is empty or shows no recent errors during your check.
 
-Write your answer here.
+No, the output did not show any errors in the logs.
 
 ---
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
+No, the output did not show any errors in the log. the only error it showed was a spelling error. indes.html instead of index.html. The system is fully up and active
 
 ---
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
-Write your answer here.
+Yes. 
 
 ---
 
@@ -167,25 +172,25 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-Add your screenshot here.
+![alt text](screenshots/03_04_01.png)
 
 ---
 
 #### Screenshot 2 — Output of `free -h`
 
-Add your screenshot here.
+![alt text](screenshots/03_04_02.png)
 
 ---
 
 #### Screenshot 3 — Output of `df -h`
 
-Add your screenshot here.
+![alt text](screenshots/03_04_03.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-Add your screenshot here.
+![alt text](screenshots/03_04_04.png)
 
 ---
 
@@ -195,13 +200,19 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-Write your answer here.
+the disk space looks critical because it is above 50% full
 
 ---
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-Write your answer here.
+Service Crashes: the Web apps, APIs, and background tasks will fail because they can't write temporary files or process requests.
+
+Database Corruption: Incomplete writes to database transaction logs can corrupt data and mess business operations
+
+Broken Logging: Due to the overload on the disk,System and web server logs will stop recording, leaving you blind to traffic and system errors.
+
+SSH Lockouts: You can lose the ability to log in remotely because Linux can't write session lock files.
 
 ---
 
@@ -215,19 +226,19 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-Add your screenshot here.
+![alt text](screenshots/03_05_01.png)
 
 ---
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-Add your screenshot here.
+![alt text](screenshots/03_05_02.png)
 
 ---
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-Add your screenshot here.
+![alt text](screenshots/03_05_03.png)
 
 ---
 
@@ -237,7 +248,9 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
+They are several ways to do that.
+1. Checking live application response curl -I https://<public ip adress>
+2. Checking web server and service status by running sudo systemctl status nginx and sudo nginx -t
 
 ---
 
@@ -251,19 +264,19 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
+![alt text](screenshots/03_06_01.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
+![alt text](screenshots/03_06_02.png)
 
 ---
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![alt text](screenshots/03_06_03.png)
 
 ---
 
@@ -273,19 +286,19 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
+There was a disruption in the configuration code/file. we changed something in the file that gave us a 500
 
 ---
 
 **2. How did you fix the issue?**
 
-Write your answer here.
+I fixed the issue by correcting the error in the code/file. when i run sudo nginx -t again, it worked.
 
 ---
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
+Always checking the code before deploying. sometimes those basic codes/files can be handed to claude to check for errors and to give recommendations for corrections that are needed
 
 ---
 
@@ -299,13 +312,13 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
+![alt text](screenshots/03_07_01.png)
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![alt text](screenshots/03_07_02.png)
 
 ---
 
@@ -315,20 +328,19 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
+Error code 
 
 ---
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
+correcting the code in the file / error
 
 ---
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
-
+Always checking for and correcting errors before deploying.
 ---
 
 # Task 8 — Security & Reliability Review
@@ -343,13 +355,21 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
+Brute-Force Proof: SSH keys (4096-bit RSA and Ed25519) are mathematically impossible for hackers to guess or crack using automated tools.
+
+Zero Transmission Risk: MY private key never leaves my local computer, also the server tests my identity using standard cryptography without ever seeing my key.
+
+Phishing & Interception Protection: Unlike passwords, an attacker monitoring the network or setting up a fake server cannot steal my credentials during login.
+
+Eliminates Weak Passwords: It removes human error, such as setting short passwords or reusing the same password across multiple servers.
 
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
+Smaller Attack Surface: Every open port runs a service that could have unpatched security flaws. Fewer open ports mean fewer ways for hackers to get in.
+
+Protects Sensitive Services: Keeping ports for databases (like MySQL on 3306 or Redis on 6379) closed to the internet stops automated brute-force and data leaks.
 
 ---
 
