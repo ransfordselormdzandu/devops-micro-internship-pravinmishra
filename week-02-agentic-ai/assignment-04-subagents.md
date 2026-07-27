@@ -20,7 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-Add your screenshot here.
+![.claude/agents/](screenshots/04_01.png)
 
 ---
 
@@ -34,19 +34,37 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+Cheaper — reduces the cost of running the optimizer itself
+Fast — handles simple repetitive tasks quickly
+Right-sized — optimization tasks don't need Sonnet's advanced capabilities
+
+Its always prudent to use the simplest model that gets the job done, no need for a powerful model to do simple comparisons and analysis.
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
+The security auditor has no Write tools because:
+
+Read-only by design — its job is to audit and review, not make changes
+Least privilege — only gets permissions it actually needs
+Prevents accidental modifications — can't tamper with what it's auditing
+Maintains integrity — audit results stay trustworthy
+
+A security auditor observes and reports, it never modifies. It does not have editing and writing rights. 
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+The tf-writer uses inherit instead of a specific model because:
+
+Flexibility — automatically uses whatever model the parent/caller is using
+Consistency — ensures the same model is used throughout the workflow
+No hardcoding — avoids being locked to a specific model version
+Easy updates — when the parent model changes, tf-writer updates automatically
+
+inherit means use whatever model is already being used thus keeping everything consistent without hardcoding a specific model. 
 
 ---
 
@@ -54,13 +72,13 @@ Add your answer here...
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-Add your screenshot here.
+![security-auditor.md frontmatter](screenshots/04_02.png)
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-Add your screenshot here.
+[Cost-optimizer.md frontmatter](screenshots/04_03.png)
 
 ---
 
@@ -74,13 +92,14 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-Add your screenshot here.
+![delegation message](screenshots/04_04.png)
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+![security audit report 1](screenshots/04_05a.png)
+![security audit report 2](screenshots/04_05b.png)
 
 ---
 
@@ -94,7 +113,8 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-Add your screenshot here.
+![full cost optimisation report 1](screenshots/04_06a.png)
+![full cost optimization report 2](screenshots/04_06b.png)
 
 ---
 
@@ -110,7 +130,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`Add your URL here`
+https://github.com/ransfordselormdzandu/devops-micro-internship-pravinmishra
 
 ---
 

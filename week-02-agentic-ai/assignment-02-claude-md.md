@@ -20,8 +20,8 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
-Add your screenshot here.
-
+![Claude.md exitst 1](screenshots/02_01a.png)
+![Claude.md exists 2](screenshots/02_01b.png)
 ---
 
 # Task 2 — Generate the First Draft with /init
@@ -34,8 +34,8 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-Add your screenshot here.
-
+![Auto generated Claude.md] 1(screenshots/02_02a.png)
+![Auto generated Claude.md] 2(screenshots/02_02b.png)
 ---
 
 # Task 3 — Customize the CLAUDE.md
@@ -48,7 +48,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-Add your screenshot here.
+![Five Sections](screenshots/02_03.png)
 
 ---
 
@@ -62,13 +62,13 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-Add your screenshot here.
+![specific details](screenshots/02_04.png)
 
 ---
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
-Add your screenshot here.
+![Warning against react](screenshots/02_05.png)
 
 ---
 
@@ -82,7 +82,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-Add your screenshot here.
+![git push](screenshots/02_06.png)
 
 ---
 
@@ -98,7 +98,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`Add your URL here`
+https://github.com/ransfordselormdzandu/devops-micro-internship-pravinmishra
 
 ---
 
