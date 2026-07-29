@@ -418,7 +418,7 @@ https://www.linkedin.com/posts/ransfordselormdzandu_for-week-3-in-the-devops-mic
 
 #### Screenshot — Published LinkedIn post
 
-![LInkedIn Ss]](<screenshots/LinkedIn Screenshot.png>)
+![LInkedIn Ss](<screenshots/LinkedIn Screenshot.png>)
 
 ---
 
