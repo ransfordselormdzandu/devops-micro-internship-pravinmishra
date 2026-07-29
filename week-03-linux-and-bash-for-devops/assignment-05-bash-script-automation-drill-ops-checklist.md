@@ -396,28 +396,34 @@ Answer the following in your own words:
 
 **1. What is a function in Bash?**
 
-Conditionals make automation scripts smart, transforming them from dumb lists of steps into resilient programs that can make real-time decisions, recover from errors, and adapt to different environments.
+A function in Bash is a named block of code that groups multiple commands together into a single, reusable unit.
 
-Without conditionals, an automated script blindly runs line 1, line 2, line 3, regardless of what happens on the system. If line 1 fails, line 2 runs anyway and often breaks everything down the line.
+Instead of rewriting the same set of commands throughout a script, you define the logic once in a function and run it whenever needed simply by calling its name.
 
 ---
 
 **2. Why are functions useful in scripts?**
 
-Add your answer here.
+Functions are useful in scripts because they make code modular, reusable, readable, and easy to maintain.
+
+Instead of copy-pasting code or letting a script turn into an unorganized, hundreds-of-lines wall of text, functions allow you to structure your script into clean, logical building blocks.
 
 ---
 
 **3. Which functions did you create in this script?**
 
-Add your answer here.
+4 functions
+- print_header prints the assignment
+- print_user_details prints my full name and the assignment
+- check_files checks whether the required directory and file exist
+- print_tools uses a loop to print each tool stored in the array.
 
 ---
 
 **4. How does this final script combine variables, arrays, loops, conditionals, files, and functions?**
 
-Add your answer here.
-
+The script uses variables to store my name, the assignment name, and the required paths. it uses an array to store the tool names and a loop to print them one by one.
+It uses the if-else conditionals with -d and -f to check the required directory and file. Finally, the related commands are organized into functions, and those functions are called in the correct order to run the complete automation script.
 ---
 
 # LinkedIn Post (Required)
@@ -428,13 +434,13 @@ Add your answer here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+'https://www.linkedin.com/posts/ransfordselormdzandu_for-week-3-in-the-devops-micro-internship-share-7487554381568020480-3q8u/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08'
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![alt text](<screenshots/LinkedIn Screenshot.png>)
 
 ---
 

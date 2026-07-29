@@ -120,13 +120,13 @@ Verify the deployed website and Nginx service are healthy.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/ransfordselormdzandu_for-week-3-in-the-devops-micro-internship-share-7487554381568020480-3q8u/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
 
 ---
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-https://www.linkedin.com/posts/ransfordselormdzandu_for-week-3-in-the-devops-micro-internship-activity-7487554383350792192-ZJce?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
+![alt text](<screenshots/LinkedIn Screenshot.png>)
 
 ---
 
