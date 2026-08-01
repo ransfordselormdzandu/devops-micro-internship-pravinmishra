@@ -486,11 +486,10 @@ Add your answer here.
 
 # LinkedIn Post (Required)
 
-![alt text](<screenshots/LinkedIn Screenshot.png>)
+
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
 
 https://www.linkedin.com/posts/ransfordselormdzandu_for-week-3-in-the-devops-micro-internship-share-7487554381568020480-3q8u/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
 
@@ -501,13 +500,14 @@ https://www.linkedin.com/posts/ransfordselormdzandu_for-week-3-in-the-devops-mic
 Add your screenshot here.
 
 ---
-
+Paste your LinkedIn post URL here:
 # GitHub Repository URL
+
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-https://github.com/ransfordselormdzandu/devops-micro-internship-pravinmishra
 
+https://github.com/ransfordselormdzandu/devops-micro-internship-pravinmishra
 ---
 
 # Submission Instructions
