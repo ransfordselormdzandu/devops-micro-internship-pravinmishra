@@ -313,7 +313,7 @@ https://lnkd.in/p/d3Y6mixq
 Add 3-5 bullet points on what you learned this week.
 
 - Learned the difference between deterministic rule-based safety checks and AI-assisted contextual review, and why both are valuable in a secure development workflow.
-
+a
 - Learned how to apply the Gather → Analyze → Human Act → Verify Agentic Loop to a Git/GitHub workflow while keeping commits, pushes, and Pull Request creation under human control.
 
 -Learned how Git pre-commit hooks and AI-assisted review complement each other by catching known issues and providing broader code review before code is committed.
