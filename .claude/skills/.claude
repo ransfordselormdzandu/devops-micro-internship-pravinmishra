@@ -1,0 +1,8 @@
+{
+  "env": {
+    "JIRA_URL": "https://id.atlassian.com/manage-profile/profile-and-visibility",
+    "JIRA_USERNAME": "selormstudent33@gmail.com",
+    "JIRA_API_TOKEN": "ATATT3xFfGF0gwywAWKdWGbJ8ZRzdtI3dT5ucDp7Ej-Mu-fS-YJ4SYeP_1D_R8Spn2el4zb8bqe7nt9t73GWTP93gVlhsphJH54LSlSvmFVzUaBLoW6Z1-Okk1uJamMCu9PAqOAP_bTJHEIrm3-xFa2ZwMNPrMLfo9eNY0XC3FeGFaAGh48xEHM=E5013496 "
+  },
+  "enabledMcpjsonServers": ["jira"]
+}

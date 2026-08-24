@@ -20,7 +20,7 @@ Create a private, team-managed Scrum Space named `DevOps Micro-Internship Websit
 
 #### Screenshot 1 — Space confirmation or Space sidebar showing the Space name and key
 
-Add your screenshot here.
+![alt text](screenshots/02_01.png)
 
 ---
 
@@ -34,7 +34,8 @@ Create the Epic `Polish DMI Website UI & Deploy` to group the website UI and dep
 
 #### Screenshot 2 — Backlog showing the Epic panel enabled and the Epic visible
 
-Add your screenshot here.
+![alt text](screenshots/02_02.png)
+![alt text](screenshots/02_02b.png)
 
 ---
 
@@ -48,13 +49,13 @@ Create all six required Stories (S1–S6) under the Epic, assign every Story to 
 
 #### Screenshot 3 — Backlog showing the Epic and all six Stories under it
 
-Add your screenshot here.
+![alt text](screenshots/02-03.png)
 
 ---
 
 #### Screenshot 4 — One opened Story showing its Story point estimate, acceptance criteria, and label
 
-Add your screenshot here.
+![alt text](screenshots/02_04.png)
 
 ---
 
@@ -68,13 +69,13 @@ Break down S2 (Primary button color refresh) and S4 (Footer with version and dat
 
 #### Screenshot 5 — S2 showing all four Sub-tasks
 
-Add your screenshot here.
+![alt text](screenshots/02_05.png)
 
 ---
 
 #### Screenshot 6 — S4 showing all four Sub-tasks
 
-Add your screenshot here.
+![alt text](screenshots/02_06.png)
 
 ---
 
@@ -88,8 +89,9 @@ Apply the `frontend` label to S1, S2, S3, S5, and S6, and the `devops` label to 
 
 #### Screenshot 7 — Backlog or Story details showing labels applied to at least two visible Stories
 
-Add your screenshot here.
-
+![alt text](screenshots/02_07a.png)
+![alt text](screenshots/02_07b.png)
+![alt text](screenshots/02_07c.png)
 ---
 
 # Task 6 — Create and Start Sprint 1
@@ -102,13 +104,13 @@ Create a one-week Sprint, move two or three Stories into it (approximately 3–5
 
 #### Screenshot 8 — Sprint 1 before starting, showing the selected Stories and Story Points
 
-Add your screenshot here.
+![alt text](screenshots/02_08.png)
 
 ---
 
 #### Screenshot 9 — Active Sprint board showing the started Sprint and Sprint Goal
 
-Add your screenshot here.
+![alt text](screenshots/02_09.png)
 
 ---
 
@@ -122,13 +124,13 @@ Filter Jira work by the `frontend` and `devops` labels and review Stories with S
 
 #### Screenshot 10 — Filter for label = frontend showing the filtered results
 
-Add your screenshot here.
+![alt text](screenshots/02_10.png)
 
 ---
 
 #### Screenshot 11 — Filter for label = devops showing the filtered results
 
-Add your screenshot here.
+![alt text](screenshots/02_11.png)
 
 ---
 
@@ -142,7 +144,8 @@ Locate the Burndown Chart for Sprint 1 so it is ready for later progress trackin
 
 #### Screenshot 12 — Burndown Chart page opened for Sprint 1
 
-Add your screenshot here.
+![alt text](screenshots/02_12a.png)
+![alt text](screenshots/02_12b.png)
 
 ---
 
