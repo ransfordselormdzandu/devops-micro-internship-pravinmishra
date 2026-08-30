@@ -264,8 +264,8 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
 ![alt text](screenshots/06_11.png)
-NB: The screenshot to show the frontmatter, allowed tool restrictions and safety rules was not saved hence it waas lost. I had to use what i could get that is close to it as a placeholder.
 
+NB: The screenshot to show the frontmatter, allowed tool restrictions and safety rules was not saved hence it waas lost. I had to use what i could get that is close to it as a placeholder.
 
 ---
 
@@ -295,7 +295,6 @@ This setting prevents Claude from choosing and running the skill automatically. 
 
 The Bash script checks Nginx, port 80, the HTTP response, disk usage, available memory, and recent logs. It records the results in linux-health-report.txt.
 Claude reads that report, explains the results, identifies warnings or failures, and recommends a safe next step. Claude does not perform the recovery action.
-
 
 ---
 
@@ -503,10 +502,28 @@ A second execution of /linux-triage re-collected system metrics to confirm all c
 
 # LinkedIn Post (Required)
 
+For week 3 in the DevOps Micro Internship with Pravin Mishra, we went deep into Linux and Bash scripting. This reinforced something I already knew from months of hands-on practice that Linux is the backbone of everything in DevOps.
 
+Here is what stood out to me for week 3. 
+
+Linux knowledge is not an option in DevOps. it is mandatory.
+Every server, every container, every Cloud instance runs on Linux. If you cannot navigate a terminal confidently, troubleshoot processes, manage permissions and read log files, correct syntax errors, you will struggle in any DevOps role. Full stop.
+
+Bash scripting as your first automation superpower.
+
+Before you touch Terraform, Ansible or any fancy automation tool like Agentic AI, it is with Bash Scripting that the real DevOps automation begins. Writing scripts that handles repetitive tasks, parse outputs and automate deployments is a foundational skill that never goes out of style, regardless of how many new and advanced technologies and software that is introduced.
+The command line is where problems get solved.
+
+What am I learning?
+Every week in DMI is not just learning, it is execution. We are documenting our work, pushing to GitHub and building a portfolio that shows employers we can do the work, not just talk about it.
+
+Week 2 was Agentic AI. Week 3 was Linux and Bash. The journey is just getting started. 
+
+If you are studying DevOps and skipping the hard part of Linux because it feels hard, please go back. Build that foundation. Everything else depends on it.
+
+Are you learning Linux as part of your DevOps or Cloud journey? What was your biggest Linux challenge when you started? Drop it in the comments.
 
 #### LinkedIn Post URL
-
 
 https://www.linkedin.com/posts/ransfordselormdzandu_for-week-3-in-the-devops-micro-internship-share-7487554381568020480-3q8u/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
 
@@ -518,12 +535,11 @@ https://www.linkedin.com/posts/ransfordselormdzandu_for-week-3-in-the-devops-mic
 ![alt text](screenshots/LinkedIn_06_b.png)
 
 ---
-Paste your LinkedIn post URL here:
+Paste your LinkedIn post URL here: https://lnkd.in/p/dy9maSpP
+
 # GitHub Repository URL
 
-
 Paste the URL of your GitHub folder or repository containing the assignment files here:
-
 
 https://github.com/ransfordselormdzandu/devops-micro-internship-pravinmishra
 ---
