@@ -263,6 +263,8 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
+![alt text](screenshots/06_11.png)
+NB: The screenshot to show the frontmatter, allowed tool restrictions and safety rules was not saved hence it waas lost. I had to use what i could get that is close to it as a placeholder.
 
 
 ---
@@ -436,51 +438,66 @@ A chatbot only answers my question, but in this agentic workflow, Claude uses to
 
 Fill in all seven sections below in your own words.
 
-**Full Name:** Add your full name here
+Full Name: Ransford Selorm Dzandu
 
-**Date:** DD/MM/YYYY
+Date: 28/07/2026
 
 ---
 
 **1. Reported Symptom**
 
-Add your answer here.
+The website was unavailable because the Nginx service stopped running, so users could not access the application
 
 ---
 
 **2. Evidence Collected**
 
-Add your answer here.
+Service Status: Nginx was inactive (confirmed stopped via service logs).
+
+Network Status: Port 80 was not listening for incoming traffic.
+
+Health Check Result: Local HTTP requests timed out/failed with a status of 000
 
 ---
 
 **3. Most Likely Cause**
 
-Add your answer here.
+Root Cause: Nginx service was inactive.
+Impact: With Nginx stopped, port 80 stopped listening for traffic, which directly caused the HTTP health checks to fail with a 000 connection error.
 
 ---
 
 **4. Human-Approved Recovery Action**
 
-Add your answer here.
+Based on the diagnostic findings, Claude Code recommended executing sudo systemctl start nginx. The command was reviewed and manually executed by the operator.
 
 ---
 
 **5. Verification**
 
-Add your answer here.
+Re-running the health-check script confirmed that Nginx is active, port 80 is listening, and the HTTP check returned a status code of 200, bringing the overall system status to HEALTHY.
 
 ---
 
 **6. Safety Decision**
 
-Add your answer here.
+Claude recommended the recovery command but did not execute it automatically. It required explicit human approval before any changes were applied to the system.
 
 ---
 
 **7. Agentic Loop Mapping**
 
-Add your answer here.
+Gather:
+A custom Bash script collected read-only system metrics—including Nginx status, port 80 state, local HTTP response codes, disk usage, and memory—and outputted the results to linux-health-report.txt.
+
+Analyze: 
+Leveraging the /linux-triage skill, Claude Code analyzed the report, identified the failed checks, pinpointed the inactive Nginx service as the root cause, and proposed sudo systemctl start nginx without executing it.
+
+Human Act: 
+The operator reviewed the diagnostic evidence and proposed fix, then manually executed sudo systemctl start nginx to restore the service.
+
+Verify: 
+A second execution of /linux-triage re-collected system metrics to confirm all checks passed, verifying that the remediation successfully resolved the incident.
 
 ---
 
@@ -497,7 +514,8 @@ https://www.linkedin.com/posts/ransfordselormdzandu_for-week-3-in-the-devops-mic
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![alt text](screenshots/LinkedIn_06_a.png)
+![alt text](screenshots/LinkedIn_06_b.png)
 
 ---
 Paste your LinkedIn post URL here:
