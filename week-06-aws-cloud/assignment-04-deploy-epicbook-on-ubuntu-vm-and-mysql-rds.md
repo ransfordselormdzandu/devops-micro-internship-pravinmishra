@@ -3,7 +3,6 @@
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ---
-
 ## Purpose
 
 In this assignment, you will deploy the EpicBook web application in AWS using a secure two-tier architecture: an Ubuntu EC2 instance with Nginx in a public subnet, and a private MySQL RDS database with restricted security-group access. The completed deployment must prove that the frontend, backend, and private database communicate successfully end to end.
