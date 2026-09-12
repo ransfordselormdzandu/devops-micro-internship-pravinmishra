@@ -30,13 +30,13 @@ Confirm successful Azure Portal access and Locate the required services and subs
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+![alt text](screenshots/01_01.png)
 
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
+![alt text](screenshots/01_02.png)
 
 ---
 
@@ -44,7 +44,11 @@ Add your screenshot here.
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+Here is a paragraph for you:
+
+---
+
+The first Azure services I plan to explore are Azure Virtual Machines, Azure Virtual Network (VNet), Azure Active Directory (now Entra ID), and Azure Security Center (Microsoft Defender for Cloud). My decision to start here is deliberate, Virtual Machines and VNet mirror the AWS EC2 and VPC concepts I already understand deeply, which means I can build on existing mental models rather than starting from zero, accelerating my learning curve significantly. Azure Active Directory is non-negotiable as a starting point because identity and access management sits at the foundation of everything in cloud security, and understanding how Entra ID handles authentication, conditional access and role-based access control is critical for my DevSecOps specialisation. Microsoft Defender for Cloud is particularly exciting to me because it provides a unified security posture management view across hybrid and multi-cloud environments and that is exactly the kind of tool that bridges my DevOps infrastructure knowledge with my Cloud Security goals and gives me hands-on experience with the kind of security tooling that enterprise employers are actively looking for in DevSecOps engineers.
 
 ---
 
