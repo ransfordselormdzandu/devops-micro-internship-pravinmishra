@@ -431,15 +431,14 @@ I will try to get at least 7 hours of sleep everyday. I just realised sleep is g
 
 Paste your LinkedIn post link here:
 
-https://lnkd.in/p/d2XWCHRB
+https://www.linkedin.com/posts/ransfordselormdzandu_cloudabrengineering-devopsabrengineering-activity-7478813536740237313-fYEe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: https://lnkd.in/p/d2XWCHRB 
-- Blog / Medium : https://medium.com/@selormransford9/what-does-your-version-2-0-look-like-26789def6e51
-
+- LinkedIn Post URL: https://www.linkedin.com/posts/ransfordselormdzandu_cloudabrengineering-devopsabrengineering-activity-7478813536740237313-fYEe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08 
+- Blog / Medium : https://dev.to/ransford_01/what-does-your-version-20-look-like-35ge
 ---
 
 ## 📌 About DMI & CloudAdvisory
