@@ -15,7 +15,7 @@
 | | |
 |---|---|
 | **Name** | Ransford Selorm Dzandu|
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
+| **LinkedIn** | www.linkedin.com/in/ransfordselormdzandu |
 | **Location** | Accra, Ghana |
 | **Background** | Cloud and DevOps Engineer |
 | **Goal** | To become one of the best DevOps professionals helping organisations and other learners to succeed |
