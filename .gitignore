@@ -1,2 +1,8 @@
 .DS_Store
 CLAUDE.md
+
+
+terraform.tfvars
+*.tfstate
+*.tfstate.backup
+.terraform/

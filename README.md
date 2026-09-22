@@ -130,12 +130,12 @@ Week 03 → Linux & Bash for DevOps
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed |  ✅ Solved| https://lnkd.in/p/dDvGP_qf | https://medium.com/@selormransford9/demystifying-the-network-how-data-moves-across-the-web-1716dd0017c6 |
-| 01 | Success Mindset | ✅ Completed | ✅ Solved | https://lnkd.in/p/d2XWCHRB | https://medium.com/@selormransford9/what-does-your-version-2-0-look-like-26789def6e51 |
+| 00 | Internet & Networking Basics | ✅ Completed |  ✅ Solved| https://www.linkedin.com/posts/ransfordselormdzandu_cloudabrengineering-devopsabrengineering-activity-7465425169587625984-zhMf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08 | https://medium.com/@selormransford9/demystifying-the-network-how-data-moves-across-the-web-1716dd0017c6 |
+| 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/ransfordselormdzandu_cloudabrengineering-devopsabrengineering-activity-7478813536740237313-fYEe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08 | https://medium.com/@selormransford9/what-does-your-version-2-0-look-like-26789def6e51 |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ⏳ ✅ Solved | https://www.linkedin.com/posts/ransfordselormdzandu_devopsabrengineering-cloudabrengineering-share-7485761423609020416-yQHJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08 | https://medium.com/@selormransford9/bridging-autonomy-and-control-architecting-agentic-ai-for-modern-devops-682df21b6412 |
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/ransfordselormdzandu_for-week-3-in-the-devops-micro-internship-share-7487554381568020480-3q8u/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08 | https://medium.com/@selormransford9/linux-and-bash-the-unsexy-skills-that-actually-run-your-infrastructure-d527ca3052ec?sharedUserId=selormransford9 |
-| 04 | Git & GitHub |  | ✅ Completed | ✅ Solved | https://lnkd.in/p/gen9kgrP |
-| 05 | DevOps Lifecycle & Agile | ⬜ ✅ Completed | ✅ Solved | https://lnkd.in/p/dJrauX27 | https://medium.com/@selormransford9/ead5a22c2cff |
+| 04 | Git & GitHub |  | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/ransfordselormdzandu_devopsabrengineering-cloudabrengineering-activity-7489096307685425152-RHGj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08 |
+| 05 | DevOps Lifecycle & Agile | ⬜ ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/ransfordselormdzandu_devopsabrengineering-cloudabrengineering-activity-7497524549022982144-cOyo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08 | https://medium.com/@selormransford9/ead5a22c2cff |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |

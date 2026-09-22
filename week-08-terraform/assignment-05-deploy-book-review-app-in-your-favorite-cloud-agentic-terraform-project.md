@@ -31,7 +31,9 @@ Prepare the Book Review App project and configure the provided Claude Code Agent
 
 Add a screenshot of the project `CLAUDE.md` showing the three-tier architecture, security boundaries, Terraform requirements, and human-approval rules.
 
-Add your screenshot here.
+![alt text](screenshots/05_01_a.png)
+![alt text](screenshots/05_01_b.png)
+![alt text](screenshots/05_01_c.png)
 
 ---
 
@@ -39,7 +41,8 @@ Add your screenshot here.
 
 Add a screenshot showing the Terraform Engineer subagent configuration.
 
-Add your screenshot here.
+![alt text](screenshots/05_02_a.png)
+![alt text](screenshots/05_02_b.png)
 
 ---
 
@@ -47,7 +50,8 @@ Add your screenshot here.
 
 Add a screenshot showing the Architecture and Security Reviewer subagent configuration.
 
-Add your screenshot here.
+![alt text](screenshots/05_03_a.png)
+![alt text](screenshots/05_03_b.png)
 
 ---
 
@@ -55,7 +59,7 @@ Add your screenshot here.
 
 Add a screenshot showing Terraform MCP connected and available.
 
-Add your screenshot here.
+![alt text](screenshots/05_04.png)
 
 ---
 
@@ -63,7 +67,7 @@ Add your screenshot here.
 
 Add a screenshot showing the configured Claude Code validation hooks.
 
-Add your screenshot here.
+![alt text](screenshots/05_05.png)
 
 ---
 
@@ -106,7 +110,7 @@ Create the modular Terraform project and implement the network and security laye
 
 Add a screenshot showing the modular Terraform project structure.
 
-Add your screenshot here.
+![alt text](screenshots/05_06.png)
 
 ---
 
@@ -114,7 +118,9 @@ Add your screenshot here.
 
 Add a screenshot showing the six-subnet architecture across two availability locations.
 
-Add your screenshot here.
+![alt text](screenshots/05_07_a.png)
+![alt text](screenshots/05_07_b.png)
+![alt text](screenshots/05_07_c.png)
 
 ---
 
@@ -122,7 +128,7 @@ Add your screenshot here.
 
 Add a screenshot showing the public and private tier separation, including routing and security boundaries.
 
-Add your screenshot here.
+![alt text](screenshots/05_08.png)
 
 ---
 
@@ -138,7 +144,8 @@ Deploy the public and internal load balancers and the Web and Application comput
 
 Add a screenshot showing the Web and Application compute resources in their required subnets.
 
-Add your screenshot here.
+![alt text](screenshots/05_09_a.png)
+![alt text](screenshots/05_09_b.png)
 
 ---
 
@@ -146,7 +153,7 @@ Add your screenshot here.
 
 Add a screenshot showing the internet-facing public load balancer.
 
-Add your screenshot here.
+![alt text](screenshots/05_10.png)
 
 ---
 
@@ -154,7 +161,7 @@ Add your screenshot here.
 
 Add a screenshot showing the private internal load balancer.
 
-Add your screenshot here.
+![alt text](screenshots/05_11.png)
 
 ---
 
@@ -162,7 +169,7 @@ Add your screenshot here.
 
 Add a screenshot showing healthy target groups or backend pools.
 
-Add your screenshot here.
+![alt text](screenshots/05_12.png)
 
 ---
 
