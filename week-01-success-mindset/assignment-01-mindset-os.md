@@ -4,34 +4,15 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
-## Purpose (Read This First)
+## Task 1 — A Belief You Hold
 
-This week is not motivation homework.
+### Question
 
-This is you building your **Mindset OS** — the system you will use for the next 5 months (and honestly, for years).
+What is something you believe to be true that most people around you would disagree with?
 
-### Expectations
+Write at least **50 words**. Be honest, specific, and use clear professional sentences.
 
-* Be honest.
-* Be specific.
-* Be practical.
-* Write like an adult professional: clear sentences, no one-liners.
-
-You will reuse this in later weeks. So do it properly once.
-
----
-
-# Assignment 1. What is something you believe to be true that most people around you would disagree with?
-
-### Rules
-
-* No "safe" answers.
-* Must be your real belief (not copied from internet).
-* Minimum 50 words.
-
-**Hint:** What do you believe about career, money, learning, discipline, relationships, health, success, life, tech industry, etc. that most people don't agree with?
-
-## Answer
+### Your Answer
 
 I believe in earning one's success and growth through hardwork and that there is no such thing as fate. People seem to forget that the Universe favors the brave and not the lazy. Most of us in Africa here belive that God or a supreme being will come down from the skies to solve our problems. We think it is fate that will change our story and we always blame the West and the force of circumstances as the source of our poverty. We spend 80 percent of our times praying to God to come and help us whiles we have all the resources needed to change our story and make our lives better. Praying to God is good. Its good to have faith in a Supreme Being but its best to be hardworking whiles doing it.
 The irony of these is that, the politicians who took and keep recieving bribes and kickbacks from Western Governments and foreign Corporations behind closed doors are people of great faith either as Muslims or Christians. They take this kickbacks so they will turn a blind eye to the wrongs this foreign entities commit, stealing the natural resources that will help the continent grow.They go to Church and Mosque to pray to the same God the poor amongst them pray to but end up stealing from them. 
@@ -39,62 +20,145 @@ Most of us in Africa believe in fate but the problem is character and honesty ba
 
 ---
 
-# Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
+## Task 2 — Three Objective Truths Discovered Through Experimentation
 
-### Definition
+Write three objective truths you discovered through your own actions and results. For each truth, include one sentence for the truth and two to four lines of evidence from your life.
 
-Objective truths do not depend on opinions. They hold true regardless of how people feel.
+### Truth #1
 
-Write each truth in this format:
-
-**Truth:** (1 sentence)
-
-**Evidence from my life:** (2–4 lines: what you tried + what happened)
-
----
-
-## Truth #1
-
-### Truth
+**Truth**
 
 Truth: Consistent effort produces better results than relying on motivation alone.
 
-### Evidence from my life
+**Evidence from My Life**
+
+Add your answer here...
+
+### Truth #2
+
+**Truth**
+
+Add your answer here...
+
+**Evidence from My Life**
+
+Add your answer here...
+
+### Truth #3
+
+**Truth**
+
+Add your answer here...
+
+**Evidence from My Life**
 
 I experimented with studying consistently for a short period each day instead of only studying when I felt motivated. I noticed that I understood the topics better and was able to remember more information. This showed me that consistency has a direct impact on my progress.
 
 ---
 
-## Truth #2
+## Task 3 — What Does Your 2.0 Version Look Like?
 
-### Truth
+Write and publicly publish an article about your future professional self, written as if a journalist is writing about you **3–7 years from now**.
+
+Your article must:
+
+* Be at least **300 words**.
+* Be written in the **past tense**, as if it has already happened.
+* Include specific proof such as projects, portfolio, GitHub, blogs, certifications, job role, leadership, or community contribution.
+* Be published on LinkedIn, Medium, WordPress, Blogspot, a personal blog, or a portfolio page.
+
+### My Article
+
+Paste your complete article here...
+
+### Public Article URL
+
+```text
+Paste your published article URL here...
+```
+
+### LinkedIn Post URL
+
+Create a LinkedIn post sharing your published article, then add the URL below.
+
+```text
+Paste your LinkedIn post URL here...
+```
+
+### Credit Note — DMI Self-Paced Engineer Track Students
+
+Add this credit note at the end of your public article. Replace `YOUR-GITHUB-USERNAME` with your actual GitHub username.
+
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public:** https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html **· Start your DevOps journey:** https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=self-paced
+
+`#DMIByPravinMishra`
+
+Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) in your LinkedIn post.
+
+### Credit Note — DMI Campus Students
+
+Add this credit note at the end of your public article. Replace `YOUR-GITHUB-USERNAME` with your actual GitHub username.
+
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Campus — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public:** https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html **· Start your DevOps journey:** https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=campus
+
+`#DMIByPravinMishra`
+
+Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) and Lead Co-Mentor [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/) in your LinkedIn post.
+
+---
+
+## Task 4 — Reflection on Cutting Corners
+
+### Question
+
+Have you ever cut corners through unethical, dishonest, or shortcut behaviour (not necessarily illegal)? If yes, how did it make you feel?
+
+You do not need to tell the full story. Focus on the emotions you experienced. If your answer is yes, write **50–100 words**.
+
+### Your Answer
+
+**Yes / No:**
 
 Asking questions and seeking help makes it easier to understand difficult concepts and makes you confident. 
 
-### Evidence from my life
+**Reflection:**
 
 When I started learning Cloud engineering in November 2023, some concepts were difficult to understand on my own. I began asking questions from my Tutors and Facilitators and with the help fo AI, especially ChatGPT, I understood complicated topics which were broken into simpler explanations. As a result, I developed a better understanding of concepts such as protocols, IP addresses, VPC Peering, Cloud Adoption, Kubernetes, Containerization and many more needed to understand the program.
 
 ---
 
-## Truth #3
+## Task 5 — Your One-Year Non-Fiction Reading Plan
 
-### Truth
+List **10 non-fiction books** you plan to read during the next year. Include the title and author of each book. Books in any language are allowed.
 
+<<<<<<< HEAD
 Practical experimentation helps people to learn more effectively than only reading or listening to explanations.
 
 ### Evidence from my life
 
 Most of our education here is memory based. That is, the teacher teaches you and he or she expects you to memorise and reproduce everything that you were thought during examination. When I started learning Cloud Engineering, I wanted to learn that way because that was what I knew my whole life. Now, I have to understand that learning Cloud and DevOps Engineering demands months and months of practical learning and personal practice. I have come to understand and love what it means to practice what one has learnt and not only write or reproduce it during examinations.
+=======
+1. Add book title and author here...
+2. Add book title and author here...
+3. Add book title and author here...
+4. Add book title and author here...
+5. Add book title and author here...
+6. Add book title and author here...
+7. Add book title and author here...
+8. Add book title and author here...
+9. Add book title and author here...
+10. Add book title and author here...
+>>>>>>> upstream/main
 
 ---
 
-# Assignment 3. What does your 2.0 version look like?
+## Task 6 — Your Life and Career Metrics
 
-### Instructions
+List the things you will measure regularly in your life and career. You only need to list the metric topics; do not include personal numbers.
 
-Write as if a journalist is writing about you **3 to 7 years from now** (not 20 years).
+Your list must include learning or skills, output or proof, health or energy, time or focus, and money or finance.
 
+<<<<<<< HEAD
 **Minimum 300 words.**
 
 ### Rules
@@ -290,6 +354,9 @@ List topics only. No need to share numbers.
 * Spending tracker
 
 ## My Metrics
+=======
+### My Metrics
+>>>>>>> upstream/main
 
 * I have to increase the number of hours of my sleep to 8 from 6
 * I plan to learn a little bit of a home skill (Plumbing, Electricals, Carpentry,) each year for the next years starting from 2027.
@@ -301,21 +368,17 @@ List topics only. No need to share numbers.
 
 ---
 
-# Assignment 7. Brain Dump + 5-Month System Plan
+## Task 7 — Brain Dump and Three-Month System Plan
 
-## Step 1: Brain Dump (Private)
+### Step 1 — Brain Dump (Private)
 
-Do a brain dump of everything in your mind into a notebook.
+Do a private brain dump in a notebook, notes app, or document. Include everything currently on your mind, such as tasks, bills, worries, goals, pending messages, ideas, and responsibilities.
 
-Examples:
+**Did you create a brain dump?**
 
-* Bills
-* Tasks
-* Worries
-* Goals
-* Pending messages
-* Ideas
-* Responsibilities
+```text
+Yes / No
+```
 
 ### Did You Do It?
 
@@ -380,6 +443,7 @@ Example:
 * Mon–Thu: 60 min deep work
 * Sat: DMI session
 * Sun: Weekly review
+### Step 2 — My Three-Month Routine and Focus Blocks
 
 #### My Weekly Routine
 
@@ -399,66 +463,89 @@ Saturday
 1:30 PM – 4:30 PM: Rest, eat, and recharge. 
 5:00 PM – 8:00 PM: my the CyberSecurity Class.
 
----
-
-### Focus Blocks
-
-#### When Will You Do DMI Work? (Days + Time)
+#### When Will I Complete My DMI Work? (Include Days and Time)
 
 In the early hours of the mornings. from 2am onwards.
 
-#### How Many Sessions Per Week?
+#### How Many DMI Work Sessions Will I Complete Each Week?
 
 6 sessions per week
 
----
-
-### Distraction Rules
-
-Examples:
-
-* Phone rules
-* Social media rules
-* Environment setup
-
 #### My Distraction Rules
 
+<<<<<<< HEAD
 Phone Rules: Keep my phone in the tree outside always. Its my source of network since I use it to hostpot my computer to get online. I think its also an advantage now that the network in my area is not stable. By keeping my phone outside, I get less distracted.
 
 I enjoy social media on my phone. The more it stays outside, the less I use it for social media. I will say my only Social Media is LinkedIn. I hardly use the others.
 
 My table is in my bedroom so I dont have to get up going to set up in the sitting room or elsewhere.
+=======
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+>>>>>>> upstream/main
 
 ---
 
-# Reflection – Week 1
+## Task 8 — Week 1 Reflection and Proof of Work
 
-### Biggest insight I got about myself this week
+### Biggest Insight I Got About Myself This Week
 
 I can do well in life if I plan well. The weekly plans and the books task has opened my eyes to how I can organise myself.
 
-### My biggest weakness/loop I noticed
+### My Biggest Weakness or Loop I Noticed
 
 My biggest weakness is trusting people. I think I love humans and sometimes, I trust others in trying to help them but at the end of the day, I end up getting hurt. It is one thing I am trying hard not to do again.
 
-### One system I will implement from this week (exact habit + time)
+### One System I Will Implement From This Week (Exact Habit and Time)
 
 I will try to get at least 7 hours of sleep everyday. I just realised sleep is good in making me productive.
 
-### LinkedIn Post
+### Proof of Work
 
-Paste your LinkedIn post link here:
+**LinkedIn Post URL**
 
+<<<<<<< HEAD
 https://www.linkedin.com/posts/ransfordselormdzandu_cloudabrengineering-devopsabrengineering-activity-7478813536740237313-fYEe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
+=======
+```text
+Paste your LinkedIn post URL here...
+```
+
+**Blog / Medium / Public Article URL**
+
+```text
+Paste your published article URL here...
+```
+>>>>>>> upstream/main
 
 ---
 
-## 10. Proof of Work
+## Completion Checklist
 
+<<<<<<< HEAD
 - LinkedIn Post URL: https://www.linkedin.com/posts/ransfordselormdzandu_cloudabrengineering-devopsabrengineering-activity-7478813536740237313-fYEe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
+=======
+* [ ] All eight tasks are completed.
+* [ ] All written answers are honest, specific, and written in clear professional sentences.
+* [ ] Task 1 has at least 50 words.
+* [ ] Task 2 includes all three truths and evidence from my life.
+* [ ] Task 3 includes a 300+ word article written in past tense.
+* [ ] My Task 3 article is published on an approved public platform.
+* [ ] I added the correct DMI credit note and replaced `YOUR-GITHUB-USERNAME`.
+* [ ] I published a LinkedIn post sharing my Task 3 article.
+* [ ] Task 5 has 10 non-fiction books with titles and authors.
+* [ ] Task 6 includes learning, output, health, time, and finance metrics.
+* [ ] I completed the private brain dump for Task 7.
+* [ ] I added a realistic three-month routine, DMI focus blocks, and distraction rules.
+* [ ] I completed the Week 1 reflection.
+* [ ] I added both the LinkedIn post and public article URLs under Task 8.
+>>>>>>> upstream/main
 
 - Blog / Medium : https://dev.to/ransford_01/what-does-your-version-20-look-like-35ge
 ---
+
 
 ## 📌 About DMI & CloudAdvisory
 
