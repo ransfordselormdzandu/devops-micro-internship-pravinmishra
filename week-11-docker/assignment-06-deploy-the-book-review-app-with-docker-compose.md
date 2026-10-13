@@ -30,7 +30,7 @@ backend/
 docker-compose.yml
 ```
 
-Add your screenshot here.
+![alt text](screenshots/06_01_b.png)
 
 ---
 
@@ -47,7 +47,10 @@ backend/.dockerignore
 
 Ensure that no real passwords, tokens, or secrets are visible.
 
-Add your screenshot here.
+![alt text](screenshots/06_02_a.png)
+![alt text](screenshots/06_02_b.png)
+![alt text](screenshots/06_02_c.png)
+![alt text](screenshots/06_02_d.png)
 
 ---
 
@@ -63,15 +66,15 @@ Prepare Dockerfiles for the frontend and backend services and build both service
 
 Add a screenshot showing the completed `frontend/Dockerfile`.
 
-Add your screenshot here.
-
+![alt text](screenshots/06_03_a.png)
+![alt text](screenshots/06_03_b.png)
 ---
 
 #### Screenshot 4 — Backend Dockerfile
 
 Add a screenshot showing the completed `backend/Dockerfile`.
 
-Add your screenshot here.
+![alt text](screenshots/06_04.png)
 
 ---
 
@@ -83,7 +86,7 @@ Add a screenshot of the terminal showing successful completion of:
 docker compose build
 ```
 
-Add your screenshot here.
+![alt text](screenshots/06_05.png)
 
 ---
 
@@ -105,7 +108,11 @@ Add a screenshot showing the MySQL service in `docker-compose.yml`, including:
 - `mysql_data` volume mount
 - No published MySQL port
 
-Add your screenshot here.
+![alt text](screenshots/06_06_a.png)
+![alt text](screenshots/06_06_b.png)
+![alt text](screenshots/06_06_c.png)
+![alt text](screenshots/06_06_d.png)
+![alt text](screenshots/06_06_e.png)
 
 ---
 
@@ -118,7 +125,7 @@ Add a screenshot showing the backend service configuration, including:
 - Browser frontend origin configured for CORS
 - Published backend port
 
-Add your screenshot here.
+![alt text](screenshots/06_07.png)
 
 ---
 
@@ -130,7 +137,7 @@ Add a screenshot showing the frontend service configuration, including:
 - `depends_on` for the backend service
 - Browser-facing `NEXT_PUBLIC_API_URL`
 
-Add your screenshot here.
+![alt text](screenshots/06_08.png)
 
 ---
 
@@ -138,7 +145,7 @@ Add your screenshot here.
 
 Add a screenshot showing the `mysql_data` volume definition in `docker-compose.yml`.
 
-Add your screenshot here.
+![alt text](screenshots/06_09.png)
 
 ---
 
@@ -160,7 +167,7 @@ docker compose ps
 
 The output must show the MySQL, backend, and frontend services running. MySQL must show as healthy.
 
-Add your screenshot here.
+![alt text](screenshots/06_10.png)
 
 ---
 
@@ -174,7 +181,11 @@ docker compose logs mysql backend --tail=50
 
 The logs must show MySQL readiness and successful backend database connection.
 
-Add your screenshot here.
+![alt text](screenshots/06_11_a.png)
+![alt text](screenshots/06_11_b.png)
+![alt text](screenshots/06_11_c.png)
+![alt text](screenshots/06_11_d.png)
+![alt text](screenshots/06_11_e.png)
 
 ---
 
@@ -192,7 +203,8 @@ Add a browser screenshot showing successful user registration or login.
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](screenshots/06_12_a.png)
+![alt text](screenshots/06_12_b.png)
 
 ---
 
@@ -202,7 +214,8 @@ Add a browser screenshot showing a created book review visible in the applicatio
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](screenshots/06_13_a.png)
+![alt text](screenshots/06_13_b.png)
 
 ---
 
@@ -213,7 +226,9 @@ Add a browser developer-tools screenshot with:
 - The Network tab showing a successful API request
 - The Console drawer showing no CORS error after the API interaction
 
-Add your screenshot here.
+![alt text](screenshots/06_14_a.png)
+![alt text](screenshots/06_14_b.png)
+![alt text](screenshots/06_14_c.png)
 
 ---
 
@@ -231,7 +246,7 @@ Add a browser screenshot showing the registered user or created review before th
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](screenshots/06_15.png)
 
 ---
 
@@ -247,7 +262,8 @@ docker compose ps
 
 Do not use `docker compose down -v`.
 
-Add your screenshot here.
+![alt text](screenshots/06_16_a.png)
+![alt text](screenshots/06_16_b.png)
 
 ---
 
@@ -257,7 +273,7 @@ Add a browser screenshot showing the same registered user or review after the st
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](screenshots/06_17.png)
 
 ---
 

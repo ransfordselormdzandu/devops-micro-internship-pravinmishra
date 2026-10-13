@@ -30,7 +30,8 @@ cat .dockerignore
 
 The file must exclude `node_modules`, `build`, and `.env`.
 
-Add your screenshot here.
+![alt text](screenshots/02_01_a.png)
+![alt text](screenshots/02_01.png)
 
 ---
 
@@ -46,7 +47,7 @@ Create a baseline single-stage Docker image and run the application on port 3000
 
 Add a screenshot showing the completed `Dockerfile.single`.
 
-Add your screenshot here.
+![alt text](screenshots/02_02.png)
 
 ---
 
@@ -60,7 +61,7 @@ http://localhost:3000
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+![alt text](screenshots/02_03.png)
 
 ---
 
@@ -76,7 +77,7 @@ Create an optimized multi-stage Docker image with separate builder and Nginx run
 
 Add a screenshot showing the completed multi-stage `Dockerfile`.
 
-Add your screenshot here.
+![alt text](screenshots/02_04.png)
 
 ---
 
@@ -90,7 +91,7 @@ http://localhost
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+![alt text](screenshots/02_05.png)
 
 ---
 
@@ -117,7 +118,7 @@ react-single:latest
 react-multistage:latest
 ```
 
-Add your screenshot here.
+![alt text](screenshots/02_06.png)
 
 ---
 
@@ -126,15 +127,15 @@ Add your screenshot here.
 Record the image sizes and calculate the reduction using the same unit for both images.
 
 ```text
-Single-stage image size: Add size here
+Single-stage image size: 2.17 GB
 
-Multi-stage image size: Add size here
+Multi-stage image size: 95 MB
 
 Percentage reduction =
-((Single-stage image size − Multi-stage image size)
-÷ Single-stage image size) × 100
+(( 2,170 − 95)
+÷ 2,170) × 100
 
-Percentage reduction: Add result here
+Percentage reduction: 95.62%
 ```
 
 ---
@@ -156,7 +157,15 @@ Write a short analysis of 5–8 lines covering:
 - How smaller images improve image pull and deployment speed
 - One Docker build-caching optimization you used
 
-Write your analysis here.
+Analysis of Docker Image Optimization Results
+
+1. The single-stage Docker image had a size of 2.17 GB (2,170 MB), while the optimized multi-stage image was only 95 MB.
+2. Using a multi-stage Docker build achieved an impressive 95.62% reduction in image size, saving approximately 2,075 MB of disk space.
+3. The smaller runtime image improves security by using a lightweight Nginx Alpine image instead of including the full Node.js development environment.
+4. It reduces the attack surface by excluding unnecessary build tools, development dependencies, and application source code from the final production image.
+5. Smaller Docker images require less data to be transferred, resulting in faster image pulls, reduced bandwidth consumption, and quicker deployments.
+6. To optimize Docker build caching, I copied the dependency files (package.json and package-lock.json) before copying the remaining application source code.
+7. This allows Docker to reuse cached dependency installation layers when only the application source code changes, improving build efficiency and reducing rebuild time.
 
 ---
 

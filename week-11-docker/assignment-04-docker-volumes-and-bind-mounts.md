@@ -26,7 +26,7 @@ Add a screenshot of the terminal showing successful completion of:
 docker pull nginx:alpine
 ```
 
-Add your screenshot here.
+![alt text](screenshots/04_01.png)
 
 ---
 
@@ -38,7 +38,7 @@ Add a screenshot of the terminal showing the created host directory:
 $HOME/nginx-logs
 ```
 
-Add your screenshot here.
+![alt text](screenshots/04_02.png)
 
 ---
 
@@ -56,7 +56,7 @@ The output must show the `myweb` container with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+![alt text](screenshots/04_03.png)
 
 ---
 
@@ -70,7 +70,7 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](screenshots/04_04.png)
 
 ---
 
@@ -84,7 +84,7 @@ $HOME/nginx-logs
 
 The output must show `access.log`, `error.log`, and an access-log entry created when you opened the Nginx page.
 
-Add your screenshot here.
+![alt text](screenshots/04_05.png)
 
 ---
 
@@ -96,8 +96,7 @@ Add a screenshot of the terminal showing successful completion of:
 docker stop myweb
 docker rm myweb
 ```
-
-Add your screenshot here.
+![alt text](screenshots/04_06.png)
 
 ---
 
@@ -111,7 +110,7 @@ $HOME/nginx-logs
 
 The access log must retain its content after the container has been removed.
 
-Add your screenshot here.
+![alt text](screenshots/04_07.png)
 
 ---
 
@@ -127,7 +126,7 @@ Deploy backend and frontend containers that share data through a named Docker Vo
 
 Add a screenshot of the terminal showing the `two-tier-app` project structure, including separate `backend` and `frontend` directories with a `Dockerfile` and `index.js` file in each.
 
-Add your screenshot here.
+![alt text](screenshots/04_08.png)
 
 ---
 
@@ -139,7 +138,7 @@ Add a screenshot of the terminal showing `mynetwork` in:
 docker network ls
 ```
 
-Add your screenshot here.
+![alt text](screenshots/04_09.png)
 
 ---
 
@@ -150,8 +149,7 @@ Add a screenshot of the terminal showing `shared-data` in:
 ```bash
 docker volume ls
 ```
-
-Add your screenshot here.
+![alt text](screenshots/04_10.png)
 
 ---
 
@@ -159,15 +157,15 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the completed backend `Dockerfile`.
 
-Add your screenshot here.
-
+![alt text](screenshots/04_11_a.png)
+![alt text](screenshots/04_11_b.png)
 ---
 
 #### Screenshot 12 — Backend Image Build
 
 Add a screenshot of the terminal showing successful completion of the `backend-app:latest` image build.
 
-Add your screenshot here.
+![alt text](screenshots/04_12.png)
 
 ---
 
@@ -181,7 +179,7 @@ docker ps
 
 The output must show the running `backend` container.
 
-Add your screenshot here.
+![alt text](screenshots/04_13.png)
 
 ---
 
@@ -189,7 +187,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the completed frontend `Dockerfile`.
 
-Add your screenshot here.
+![alt text](screenshots/04_14.png)
 
 ---
 
@@ -197,8 +195,8 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful completion of the `frontend-app:latest` image build.
 
-Add your screenshot here.
-
+![alt text](screenshots/04_15.png)
+![alt text](screenshots/04_15_b.png)
 ---
 
 #### Screenshot 16 — Running Backend and Frontend Containers
@@ -215,7 +213,7 @@ The output must show both `backend` and `frontend` containers running. Only `fro
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+![alt text](screenshots/04_16.png)
 
 ---
 
@@ -229,7 +227,7 @@ The output must include:
 Data written: Hello from Backend!
 ```
 
-Add your screenshot here.
+![alt text](screenshots/04_17.png)
 
 ---
 
@@ -243,7 +241,7 @@ Hello from Backend!
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](screenshots/04_18.png)
 
 ---
 
@@ -257,7 +255,7 @@ Test Data 1
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](screenshots/04_19.png)
 
 ---
 
@@ -271,7 +269,7 @@ Test Data 2 - New Update
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](screenshots/04_20.png)
 
 ---
 
@@ -279,8 +277,8 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the `frontend` and `backend` containers removed and recreated using the same `shared-data` Docker Volume.
 
-Add your screenshot here.
-
+![alt text](screenshots/04_21_a.png)
+![alt text](screenshots/04_21_b.png)
 ---
 
 #### Screenshot 22 — Data Persists After Recreation
@@ -295,7 +293,7 @@ This proves that the `shared-data` Docker Volume outlived both application conta
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](screenshots/04_22.png)
 
 ---
 

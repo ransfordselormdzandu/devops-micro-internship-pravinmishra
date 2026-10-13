@@ -25,8 +25,7 @@ Add a screenshot of Docker Hub showing your newly created public repository:
 ```text
 my-react-app
 ```
-
-Add your screenshot here.
+![alt text](screenshots/05_01.png)
 
 ---
 
@@ -40,7 +39,7 @@ Login Succeeded
 
 Ensure that your full name is visible and that no password, Personal Access Token, or device code is exposed.
 
-Add your screenshot here.
+![alt text](screenshots/05_02.png)
 
 ---
 
@@ -54,7 +53,7 @@ docker image ls <YOUR_DOCKERHUB_USERNAME>/my-react-app
 
 The output must show the `latest` tag.
 
-Add your screenshot here.
+![alt text](screenshots/05_03.png)
 
 ---
 
@@ -68,7 +67,7 @@ docker push <YOUR_DOCKERHUB_USERNAME>/my-react-app:latest
 
 The output must include a pushed status or image digest.
 
-Add your screenshot here.
+![alt text](screenshots/05_04.png)
 
 ---
 
@@ -76,7 +75,7 @@ Add your screenshot here.
 
 Add a screenshot of your Docker Hub repository showing the uploaded `latest` image tag.
 
-Add your screenshot here.
+![alt text](screenshots/05_05.png)
 
 ---
 
@@ -88,7 +87,7 @@ Add a screenshot of the terminal showing:
 - Successful `docker pull` output
 - `docker image ls` showing the pulled image
 
-Add your screenshot here.
+![alt text](screenshots/05_06.png)
 
 ---
 
@@ -106,7 +105,7 @@ The output must show the running `react-container` with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+![alt text](screenshots/05_07.png)
 
 ---
 
@@ -120,7 +119,7 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](screenshots/05_08.png)
 
 ---
 
