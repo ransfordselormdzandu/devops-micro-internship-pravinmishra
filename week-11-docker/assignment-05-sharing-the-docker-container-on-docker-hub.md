@@ -137,7 +137,17 @@ Write a short explanation covering:
 - Why a container registry is useful in DevOps workflows
 - Why production deployments should use versioned image tags instead of relying only on `latest`
 
-Write your explanation here.
+1. Why Image Tagging Is Required Before Pushing to Docker Hub
+
+Image tagging is important because it gives a Docker image a specific name and version that Docker Hub can recognize. In this assignment, I tagged my React application image using my Docker Hub username, repository name, and the `latest` tag. This allowed Docker to identify the correct repository when pushing the image to Docker Hub.
+
+2. Why a Container Registry Is Useful in DevOps Workflows
+
+A container registry, such as Docker Hub, provides a central location for storing, managing, and distributing Docker images. It allows DevOps teams to share application images and deploy the same image across development, testing, and production environments. In this assignment, the image was published to Docker Hub, then downloaded and run again to demonstrate how container registries support consistent application deployment.
+
+3. Why Production Deployments Should Use Versioned Image Tags Instead of Relying Only on `latest`
+
+Production deployments should use versioned image tags, such as `v1.0.0` or `v1.0.1`, because they help identify the exact application version being deployed. Unlike the `latest` tag, which can point to different image versions over time, versioned tags provide better control, traceability, and easier rollback when problems occur. This makes production deployments more reliable and predictable.
 
 ---
 
@@ -161,13 +171,13 @@ Include:
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/ransfordselormdzandu_docker-volumes-and-bind-mounts-understanding-share-7516166512421015552-bsYX/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+![alt text](screenshots/LinkedIn-Screenshot-for-assignment-04.png)
 
 ---
 

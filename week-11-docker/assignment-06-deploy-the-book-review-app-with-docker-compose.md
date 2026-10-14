@@ -293,13 +293,18 @@ Write a short explanation of 5–8 lines covering:
 - When a full reset is useful
 - Why a full reset must not be used before persistence evidence is captured
 
-Write your explanation here.
+1. The docker compose down command stops and removes the containers and networks created by Docker Compose while preserving named volumes and their stored data.
+2. Keeping named volumes is important because it ensures that MySQL data, including registered users and book reviews, remains available even after the containers are removed.
+3. When the application is restarted using docker compose up -d, MySQL reuses the existing volume, allowing previously stored data to remain accessible.
+4. Running docker compose down -v removes the containers, networks, and named volumes, resulting in the deletion of the stored MySQL application data.
+5. A full reset is useful during development or testing when a fresh database is needed, such as when re-running seed data or testing database initialization.
+6. However, a full reset should never be performed before capturing persistence evidence because it would delete the data needed to demonstrate successful storage persistence.
 
 ---
 
 # Final Public Frontend URL
 
-**Frontend URL:** `http://<VM_PUBLIC_IP>:<FRONTEND_PORT>`
+**Frontend URL:** http://34.224.22.219:3000
 
 Replace the placeholder with your working application URL.
 
@@ -307,7 +312,7 @@ Replace the placeholder with your working application URL.
 
 # GitHub Repository URL
 
-**Your Fork or Repository URL:** `Add your GitHub repository URL here`
+**Your Fork or Repository URL:** https://github.com/ransfordselormdzandu/devops-micro-internship-pravinmishra
 
 ---
 
@@ -319,11 +324,11 @@ Create a LinkedIn post about the Book Review App deployment and what you learned
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** https://www.linkedin.com/posts/ransfordselormdzandu_docker-volumes-and-bind-mounts-understanding-share-7516166512421015552-bsYX/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of your published LinkedIn post here.
+![alt text](screenshots/LinkedIn-Screenshot-for-assignment-04.png)
 
 ---
 

@@ -306,13 +306,29 @@ Write a short explanation covering:
 - How Task 2 proved Docker Volume persistence
 - Why Docker Volumes are commonly used for application data
 
-Write your explanation here.
+## Docker Volumes and Bind Mounts
+
+1. Difference Between a Bind Mount and a Docker Volume
+
+A Bind Mount connects a specific directory on the host machine to a directory inside a Docker container, allowing both the host and container to access the same files. A Docker Volume, on the other hand, is managed by Docker and stores data independently of the container's lifecycle. Bind Mounts are useful for accessing host files, such as logs, while Docker Volumes are generally preferred for persistent application data.
+
+2. How Task 1 Proved Bind Mount Persistence
+
+In Task 1, I deployed an Nginx container named `myweb` and mounted the host directory `$HOME/nginx-logs` to `/var/log/nginx` inside the container. After accessing the Nginx web page, I verified that the `access.log` and `error.log` files were available on the host. I then stopped and removed the container and checked the host directory again. The log files and their contents remained available, demonstrating that Bind Mounts preserve data even after the container is removed.
+
+3. How Task 2 Proved Docker Volume Persistence
+
+In Task 2, I created a Docker Volume named `shared-data` and mounted it to `/data` in both the backend and frontend containers. The backend wrote data into the volume, while the frontend successfully displayed the same data in the browser. I updated the stored message to `Test Data 2 - New Update`, removed both containers, and recreated them using the same volume. The frontend continued displaying the updated message, proving that Docker Volumes preserve and share data independently of containers.
+
+4. Why Docker Volumes Are Commonly Used for Application Data
+
+Docker Volumes are commonly used for application data because they provide persistent storage that survives container removal and recreation. They are managed by Docker, can be shared between containers, and allow applications to be updated or replaced without losing stored information. This makes them particularly useful for databases, uploaded files, reports, and other stateful applications.
 
 ---
 
 # Public Application URL
 
-**Application URL:** `Add your VM public IP URL here`
+**Application URL:** https://18.215.1547
 
 ---
 
@@ -328,13 +344,13 @@ Create a LinkedIn post about Docker Volumes and Bind Mounts, including one diffe
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/ransfordselormdzandu_docker-volumes-and-bind-mounts-understanding-share-7516166512421015552-bsYX/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here. Include a screenshot of the application displaying shared data.
+![alt text](screenshots/LinkedIn-Screenshot-for-assignment-04.png)
 
 ---
 
