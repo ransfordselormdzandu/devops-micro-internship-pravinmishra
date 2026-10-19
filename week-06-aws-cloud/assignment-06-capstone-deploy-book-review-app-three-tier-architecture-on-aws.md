@@ -20,7 +20,7 @@ Create an architecture diagram showing the custom VPC (10.0.0.0/16), the six sub
 
 #### Diagram image or link
 
-Add your diagram image or link here.
+![alt text](<screenshots/AWS Book Review Architecture Diagram.png>)
 
 ---
 
@@ -34,13 +34,13 @@ Record the AWS Region used and list every AWS service used across networking, co
 
 **Region:**
 
-Write your answer here.
+Stockholm (eu-north-1)
 
 ---
 
 **Services:**
 
-Write your answer here.
+Amazon VPC, Internet Gateway, 6 subnets, NAT Gateway, Route tables, Amazon EC2, Application Load Balancers, Amazon RDS MySQL, RDS read replica, Security Groups, etc
 
 ---
 
@@ -56,7 +56,7 @@ Confirm the Book Review App loads through the public ALB DNS name.
 
 Paste your public ALB DNS name here:
 
-`Add your URL here`
+http://book-review-web-alb-1997429571.eu-north-1.elb.amazonaws.com/
 
 ---
 
@@ -70,37 +70,38 @@ Capture visual proof of every tier and load balancer.
 
 #### Web EC2
 
-Add your screenshot here.
+![alt text](screenshots/Web-tier-EC2-Instance-in-public-subnet.png)
 
 ---
 
 #### App EC2
 
-Add your screenshot here.
+![alt text](screenshots/Application-tier-EC2-Instance-in-private-subnet.png)
 
 ---
 
 #### Public ALB
 
-Add your screenshot here.
+![alt text](screenshots/Public-application-Load-Balancer-1.png)
+![alt text](screenshots/Public-application-Load-Balancer-2.png)
 
 ---
 
 #### Internal ALB
 
-Add your screenshot here.
+![alt text](screenshots/Internal-application-Load-Balancer.png)
 
 ---
 
 #### RDS + Replica
 
-Add your screenshot here.
-
+![alt text](screenshots/Amazon-RDS-for-MySQL-1.png)
+![alt text](screenshots/Amazon-RDS-for-MySQL-2.png)
 ---
 
 #### App UI proof
 
-Add your screenshot here.
+![alt text](screenshots/Book-Review-App-UI-working-through-public-ALB.png)
 
 ---
 
@@ -114,19 +115,38 @@ Summarize what worked in the final deployment, the issues encountered and how ea
 
 **What worked:**
 
-Write your answer here.
+Deployed Next.js and Nginx on the web EC2 instance and Node.js/Express on the private application EC2 instance.
+Configured two ALBs with healthy targets.
+Connected the backend securely to MySQL over SSL; confirmed the API returned HTTP 200 and book data.
+Enabled RDS Multi-AZ and created a read replica.
+Verified that the public website displayed three book records.
 
 ---
 
 **Issues + fixes:**
 
-Write your answer here.
+RDS connection timeout
+Checked RDS endpoint, MySQL port 3306, security groups and network connectivity; restored database access.
+
+No books available on frontend
+Fixed duplicated /api in the frontend API URL configuration and restarted the frontend.
+
+PM2 process name mismatch
+Used pm2 list to identify the correct process name: frontend.
+
+Public Web ALB timeout
+Found the ALB was associated with a security group blocking HTTP; attached a security group allowing inbound HTTP.
+
+Backend startup issues
+Ran the server from the correct backend directory and resolved a port 3001 conflict.
 
 ---
 
 **Tools/sources used:**
 
-Write your answer here.
+### Tools and Technologies Used
+
+The tools and technologies used for this project include AWS Management Console, Amazon VPC, Amazon EC2, Application Load Balancer, Amazon RDS MySQL, Ubuntu Linux, SSH, Nginx, Node.js, Express.js, Next.js, PM2, MySQL Client, and cURL.
 
 ---
 
@@ -142,13 +162,15 @@ Publish a LinkedIn post sharing the capstone deployment, including the public AL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/ransfordselormdzandu_cloudengineering-devops-dmiabrwithabrpravinmishra-share-7517503499295825920-CPYS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
 
 ---
 
 #### Screenshot of LinkedIn post
 
-Add your screenshot here.
+![alt text](screenshots/LInkedIn-Screenshot.png)
+![alt text](screenshots/LinkedIn-Screenshot-2.png)
+![alt text](screenshots/LinkedIn-Screenshot-3.png)
 
 ---
 
