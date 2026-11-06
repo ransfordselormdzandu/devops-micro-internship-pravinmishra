@@ -24,13 +24,13 @@ This project will use the Git repository and Ansible controller prepared in Assi
 
 #### Screenshot 1 — Terminal showing the complete `ansible-adhoc-lab` project structure
 
-Add your screenshot here.
+![alt text](screenshots/02_01.png)
 
 ---
 
 #### Screenshot 2 — Terminal showing `git status --short` with the new project files and updated `.gitignore`
 
-Add your screenshot here.
+![alt text](screenshots/02_02.png)
 
 ---
 
@@ -57,25 +57,25 @@ Do not configure both providers for this assignment.
 
 #### Screenshot 3 — Terraform configuration showing the three or four server roles and the `for_each` or `count` implementation
 
-Add your screenshot here.
+![alt text](screenshots/02_03.png)
 
 ---
 
 #### Screenshot 4 — Terraform configuration showing SSH restricted to the controller IP and HTTP allowed only for web hosts
 
-Add your screenshot here.
+![alt text](screenshots/02_04.png)
 
 ---
 
 #### Screenshot 5 — Terraform output configuration showing how public IP addresses are associated with the server roles
 
-Add your screenshot here.
+![alt text](screenshots/02_05.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -89,25 +89,25 @@ Initialize and validate the Terraform configuration, review the execution plan, 
 
 #### Screenshot 6 — Final `terraform apply` output showing `Apply complete`
 
-Add your screenshot here.
+![alt text](screenshots/02_06.png)
 
 ---
 
 #### Screenshot 7 — `terraform output public_ips` showing the role-to-IP mapping for all three or four VMs
 
-Add your screenshot here.
+![alt text](screenshots/02_07.png)
 
 ---
 
 #### Screenshot 8 — Azure Portal or AWS Management Console showing all three or four VMs in the `Running` state, with their role-based names visible
 
-Add your screenshot here.
+![alt text](screenshots/02_08.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -121,13 +121,13 @@ Verify that each managed VM can be accessed from the Ansible controller using SS
 
 #### Screenshot 9 — Terminal showing successful SSH hostname output from all VMs
 
-Add your screenshot here.
+![alt text](screenshots/02_09.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -143,13 +143,13 @@ The inventory allows Ansible to run commands against all servers, or only specif
 
 #### Screenshot 10 — `inventory.ini` showing the `web`, `app`, and `db` groups
 
-Add your screenshot here.
+![alt text](screenshots/02_10.png)
 
 ---
 
 #### Screenshot 11 — Output of `ansible-inventory -i inventory.ini --graph`
 
-Add your screenshot here.
+![alt text](screenshots/02_11.png)
 
 ---
 
@@ -171,43 +171,44 @@ This task proves that the inventory is working and that Ansible can control mult
 
 #### Screenshot 12 — Output of `ansible all -i inventory.ini -m ping`
 
-Add your screenshot here.
+![alt text](screenshots/02_12.png)
 
 ---
 
 #### Screenshot 13 — Output of `ansible all -i inventory.ini -m command -a "uptime"`
 
-Add your screenshot here.
+![alt text](screenshots/02_13.png)
 
 ---
 
 #### Screenshot 14 — Output of `ansible web -i inventory.ini -m apt -a "name=nginx state=present update_cache=yes" --become`
 
-Add your screenshot here.
+![alt text](screenshots/02_14.png)
 
 ---
 
 #### Screenshot 15 — Output of `ansible web -i inventory.ini -m service -a "name=nginx state=started enabled=yes" --become`
 
-Add your screenshot here.
+![alt text](screenshots/02_15_a.png)
+![alt text](screenshots/02_15_b.png)
 
 ---
 
 #### Screenshot 16 — Output of `ansible all -i inventory.ini -m apt -a "name=htop state=present update_cache=yes" --become`
 
-Add your screenshot here.
+![alt text](screenshots/02_16.png)
 
 ---
 
 #### Screenshot 17 — Output of `ansible web -i inventory.ini -m command -a "systemctl is-active nginx"`
 
-Add your screenshot here.
+![alt text](screenshots/02_17.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -219,13 +220,14 @@ Add your task notes here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/ransfordselormdzandu_devopsabrengineering-cloudabrengineering-share-7522217256219742208-Iqij/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![alt text](screenshots/03_linkedin_screenshots_1.png)
+![alt text](screenshots/03_linkedin_sreenshot_02.png)
 
 ---
 
@@ -235,37 +237,37 @@ Answer the following in your own words:
 
 **1. What is the purpose of an Ansible inventory file?**
 
-Add your answer here.
+An Ansible inventory file contains information about the servers Ansible manages, including their IP addresses, SSH usernames, and connection settings. It also allows servers to be organized into groups, making it easier to manage multiple servers efficiently.
 
 ---
 
 **2. What is the difference between the `web`, `app`, and `db` groups in your inventory?**
 
-Add your answer here.
+The web group contains servers responsible for hosting websites and running web services like Nginx. The app group represents application servers, while the db group represents database servers. These groups allow Ansible to execute commands on specific servers based on their roles.
 
 ---
 
 **3. What does the Ansible `ping` module verify?**
 
-Add your answer here.
+The Ansible ping module verifies that Ansible can successfully connect to managed servers through SSH and execute Python-based modules. A successful response returns pong, confirming that the server is reachable and ready for Ansible management.
 
 ---
 
 **4. Why do package installation commands require `--become`?**
 
-Add your answer here.
+Package installation commands require --become because installing or updating software on Linux requires administrative privileges. The --become option allows Ansible to temporarily execute commands with elevated privileges, usually as the root user.
 
 ---
 
 **5. When would you use an ad-hoc command instead of a playbook?**
 
-Add your answer here.
+I would use an Ansible ad-hoc command when performing quick, one-time tasks that do not require a full playbook. For example, checking server uptime, testing connectivity, installing a package, or restarting a service. Playbooks are more suitable for repeatable and complex automation tasks.
 
 ---
 
 **6. What is one challenge you faced while setting up SSH or inventory, and how did you fix it?**
 
-Add your answer here.
+One challenge was ensuring that Ansible could connect to the managed servers using SSH authentication. I addressed this by checking the correct public IP addresses, verifying the SSH username and private key path in the inventory file, and ensuring that the security group allowed SSH access from my controller's IP address. This helped establish successful connections between Ansible and the managed servers.
 
 ---
 
