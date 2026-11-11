@@ -20,7 +20,7 @@ Create healthy, labeled NGINX Pods (readiness + liveness probes) for the NodePor
 
 #### Screenshot 1 — Healthy NGINX Pods before Service creation
 
-Add your screenshot here.
+![alt text](screenshots/08_01.png)
 
 ---
 
@@ -34,7 +34,7 @@ Create `nginx-svc-nodeport` (type `NodePort`, port 80, `nodePort: 30080`) and in
 
 #### Screenshot 2 — Service output showing `80:30080` and populated endpoints
 
-Add your screenshot here.
+![alt text](screenshots/08_02.png)
 
 ---
 
@@ -48,7 +48,7 @@ Find a reachable node IP and test `<NODE_IP>:30080` externally (curl) and intern
 
 #### Screenshot 3 — Successful external or internal NodePort response
 
-Add your screenshot here.
+![alt text](screenshots/08_03.png)
 
 ---
 
@@ -62,7 +62,7 @@ Use the appropriate fallback for your cluster environment (`minikube service --u
 
 #### Screenshot 4 — Minikube helper URL or local validation result
 
-Add your screenshot here.
+![alt text](screenshots/08_04.png)
 
 ---
 
@@ -76,7 +76,7 @@ Change the selector to `app: does-not-match`, confirm endpoints empty and the re
 
 #### Screenshot 5 — Empty then restored endpoint output
 
-Add your screenshot here.
+![alt text](screenshots/08_05.png)
 
 ---
 
@@ -90,7 +90,7 @@ Delete one backend Pod while calling the NodePort from another terminal, confirm
 
 #### Screenshot 6 — Pod replacement while NodePort remains available
 
-Add your screenshot here.
+![alt text](screenshots/08_06.png)
 
 ---
 
@@ -98,7 +98,7 @@ Add your screenshot here.
 
 Write a short note describing what the lab demonstrated.
 
-Write your answer here.
+This lab demonstrated how **Kubernetes NodePort Services** expose applications through a port on each cluster node, allowing access from outside the cluster when network connectivity permits. I learned how NodePort Services use node IP addresses, assigned ports, labels, and selectors to route traffic to healthy Pods. The lab also highlighted how firewall rules and cluster networking can affect external access. Additionally, deleting an NGINX Pod demonstrated how Kubernetes automatically creates a replacement while the NodePort Service continues routing traffic to available Pods. Overall, I gained a better understanding of Kubernetes external networking, service discovery, and application availability during Pod replacement.
 
 ---
 

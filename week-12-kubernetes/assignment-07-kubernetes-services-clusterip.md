@@ -20,7 +20,7 @@ Create two healthy, labeled NGINX Pods (readiness + liveness probes) as Service 
 
 #### Screenshot 1 — Two Ready Pods with labels and IPs
 
-Add your screenshot here.
+![alt text](screenshots/07_01.png)
 
 ---
 
@@ -34,7 +34,7 @@ Create `nginx-svc` (type `ClusterIP`, selector `app: nginx`, port 80) and inspec
 
 #### Screenshot 2 — Service ClusterIP plus populated Endpoints and EndpointSlices
 
-Add your screenshot here.
+![alt text](screenshots/07_02.png)
 
 ---
 
@@ -48,7 +48,8 @@ Create a BusyBox `tester` Pod and call `nginx-svc` by short name, ClusterIP, and
 
 #### Screenshot 3 — Successful `wget` responses and `nslookup` output
 
-Add your screenshot here.
+![alt text](screenshots/07_03.png)
+![alt text](screenshots/07_03_b.png)
 
 ---
 
@@ -62,7 +63,7 @@ Change the Service selector to `app: does-not-match`, confirm endpoints become e
 
 #### Screenshot 4 — Empty endpoints during failure and restored endpoints after the fix
 
-Add your screenshot here.
+![alt text](screenshots/07_04.png)
 
 ---
 
@@ -76,7 +77,7 @@ Scale to one replica, apply a broken readiness patch, confirm the NotReady Pod i
 
 #### Screenshot 5 — NotReady Pod with excluded endpoint, followed by restored endpoint membership
 
-Add your screenshot here.
+![alt text](screenshots/07_05.png)
 
 ---
 
@@ -90,7 +91,7 @@ Verify the Service path, then optionally delete `tester` and `nginx-svc`.
 
 #### Screenshot 6 — Final verification or optional cleanup output
 
-Add your screenshot here.
+![alt text](screenshots/07_06.png)
 
 ---
 
@@ -98,7 +99,7 @@ Add your screenshot here.
 
 Write a short note describing what the lab demonstrated.
 
-Write your answer here.
+This lab demonstrated how **Kubernetes ClusterIP Services** provide stable internal communication between applications without relying on changing Pod IP addresses. I learned how Services use labels and selectors to identify Pods, while Kubernetes DNS enables service discovery. The lab also showed how incorrect Service selectors cause empty endpoints and connection failures, and how restoring the correct selectors re-establishes connectivity. Additionally, I learned how readiness probes ensure that only healthy, ready Pods receive Service traffic. Overall, the lab improved my understanding of Kubernetes networking, service discovery, and reliable internal communication between Pods.
 
 ---
 

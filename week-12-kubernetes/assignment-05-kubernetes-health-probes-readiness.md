@@ -20,7 +20,8 @@ Deploy two NGINX Pods without probes (`00-nginx-deploy-baseline.yaml`) to establ
 
 #### Screenshot 1 — Baseline manifest and healthy two-Pod rollout output
 
-Add your screenshot here.
+![alt text](screenshots/05_01_a.png)
+![alt text](screenshots/05_01_b.png)
 
 ---
 
@@ -34,7 +35,7 @@ Add an HTTP readiness probe on `/` port 80 (`01-nginx-deploy-readiness.yaml`) an
 
 #### Screenshot 2 — Pod description showing the readiness probe and `Ready=True`
 
-Add your screenshot here.
+![alt text](screenshots/05_02.png)
 
 ---
 
@@ -48,7 +49,7 @@ Change the readiness path to `/does-not-exist`, observe `NotReady` and a stalled
 
 #### Screenshot 3 — `NotReady` conditions followed by a successful fixed rollout
 
-Add your screenshot here.
+![alt text](screenshots/05_03.png)
 
 ---
 
@@ -62,7 +63,7 @@ Perform a good image update to `nginx:1.21.2`, then attempt an update to `nginx:
 
 #### Screenshot 4 — Successful good rollout, stalled broken rollout, and successful recovery
 
-Add your screenshot here.
+![alt text](screenshots/05_04.png)
 
 ---
 
@@ -76,7 +77,7 @@ Review probe timing/thresholds and retain or delete the Deployment.
 
 #### Screenshot 5 — Final healthy Pod state or optional cleanup output
 
-Add your screenshot here.
+![alt text](screenshots/05_05.png)
 
 ---
 
@@ -84,7 +85,7 @@ Add your screenshot here.
 
 Write a short note describing what the lab demonstrated.
 
-Write your answer here.
+This lab demonstrated how **Kubernetes readiness probes** ensure that Pods are ready to accept traffic before they are considered available. I learned that a Pod being in the Running state does not necessarily mean it is ready to serve requests. By configuring an HTTP readiness probe and intentionally changing its path to an invalid endpoint, the lab showed how Kubernetes marks Pods as NotReady and prevents unsuccessful rolling updates from replacing healthy Pods. Restoring the correct probe configuration allowed the Deployment to recover successfully. Overall, I learned how readiness probes help maintain application availability and ensure safer rolling updates.
 
 ---
 

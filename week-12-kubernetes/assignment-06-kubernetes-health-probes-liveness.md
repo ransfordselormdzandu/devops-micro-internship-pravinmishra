@@ -20,7 +20,7 @@ Deploy two NGINX Pods without probes (`00-nginx-deploy-baseline.yaml`).
 
 #### Screenshot 1 — Baseline Deployment and two running Pods
 
-Add your screenshot here.
+![alt text](screenshots/06_01.png)
 
 ---
 
@@ -34,7 +34,7 @@ Add an HTTP liveness probe on `/` port 80 (`01-nginx-deploy-liveness.yaml`) and 
 
 #### Screenshot 2 — Pod description showing the liveness probe
 
-Add your screenshot here.
+![alt text](screenshots/06_02.png)
 
 ---
 
@@ -48,7 +48,7 @@ Change the liveness path to `/does-not-exist`, apply it, and watch `RESTARTS` in
 
 #### Screenshot 3 — Pod RESTARTS increment and the corresponding liveness failure events
 
-Add your screenshot here.
+![alt text](screenshots/06_03.png)
 
 ---
 
@@ -62,7 +62,7 @@ Reapply the good liveness manifest and confirm restart counts stop increasing.
 
 #### Screenshot 4 — Stable Pod state after the fixed manifest is applied
 
-Add your screenshot here.
+![alt text](screenshots/06_04.png)
 
 ---
 
@@ -76,7 +76,7 @@ Review recommended probe ranges and retain or delete the Deployment.
 
 #### Screenshot 5 — Final healthy state and any troubleshooting evidence used
 
-Add your screenshot here.
+![alt text](screenshots/06_05.png)
 
 ---
 
@@ -84,7 +84,7 @@ Add your screenshot here.
 
 Write a short note describing what the lab demonstrated.
 
-Write your answer here.
+This lab demonstrated how **Kubernetes liveness probes** help maintain application reliability through automatic container restarts. I learned how to configure an HTTP liveness probe to monitor the health of NGINX containers. By intentionally changing the probe path to an invalid endpoint, the lab showed how repeated health check failures trigger Kubernetes to restart unhealthy containers, which can be verified through Pod restart counts and events. Restoring the correct probe configuration allowed the Deployment to return to a stable state. Overall, I learned how liveness probes support self-healing and why proper probe configuration is important to prevent unnecessary restart loops.
 
 ---
 

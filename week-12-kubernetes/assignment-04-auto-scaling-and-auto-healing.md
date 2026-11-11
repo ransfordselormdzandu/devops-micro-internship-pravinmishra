@@ -20,7 +20,7 @@ Create the `~/k8s-labs/autoscaling` working directory.
 
 #### Screenshot 1 — Terminal showing the `autoscaling` directory
 
-Add your screenshot here.
+![alt text](screenshots/04_01.png)
 
 ---
 
@@ -34,7 +34,7 @@ Create `demo-autohealing` (two replicas), delete one Pod, and confirm the desire
 
 #### Screenshot 2 — Deleted Pod and replacement Pod with the replica count restored
 
-Add your screenshot here.
+![alt text](screenshots/04_02.png)
 
 ---
 
@@ -48,7 +48,7 @@ Deploy `nginx-deployment` with CPU `requests: 100m` / `limits: 200m`, then enabl
 
 #### Screenshot 3 — Deployment resources plus successful Metrics Server status
 
-Add your screenshot here.
+![alt text](screenshots/04_03.png)
 
 ---
 
@@ -62,7 +62,7 @@ Create an HPA (imperatively via `kubectl autoscale` or declaratively via `autosc
 
 #### Screenshot 4 — `kubectl get hpa` and `kubectl describe hpa nginx-hpa` output
 
-Add your screenshot here.
+![alt text](screenshots/04_04.png)
 
 ---
 
@@ -76,7 +76,7 @@ Generate CPU load inside an NGINX Pod (`yes > /dev/null`) and monitor whether th
 
 #### Screenshot 5 — HPA output showing current metrics and any replica increase
 
-Add your screenshot here.
+![alt text](screenshots/04_05.png)
 
 ---
 
@@ -84,7 +84,7 @@ Add your screenshot here.
 
 Write a short note describing what the lab demonstrated.
 
-Write your answer here.
+This lab demonstrated how Kubernetes uses **auto-healing and auto-scaling** to improve application reliability and availability. Auto-healing allows Kubernetes to automatically replace deleted or failed Pods to maintain the desired number of replicas. Auto-scaling uses the **Horizontal Pod Autoscaler (HPA)** to adjust the number of Pods based on CPU utilization. The lab also demonstrated the importance of CPU requests, limits, and Metrics Server in monitoring resource usage and supporting automatic scaling. Overall, I learned how Kubernetes helps applications recover from failures and adapt to changing workloads with minimal manual intervention.
 
 ---
 
