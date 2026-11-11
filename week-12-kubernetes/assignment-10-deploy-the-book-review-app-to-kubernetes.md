@@ -40,7 +40,7 @@ Create an architecture diagram showing the public entry point, frontend, interna
 
 #### Screenshot 3 — Completed Kubernetes architecture diagram
 
-
+![alt text](../week-10-azure-devops/screenshots/AWS-EKS-Book-Review-Architecture-Diagram.png)
 
 ---
 
