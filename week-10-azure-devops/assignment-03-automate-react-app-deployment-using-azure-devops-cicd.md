@@ -37,7 +37,7 @@ Add a screenshot of Azure Repos showing:
 * `main` branch
 * Project files
 
-Add your screenshot here.
+![alt text](screenshots/03_01.png)
 
 ---
 
@@ -81,7 +81,7 @@ Add a screenshot of the Azure Pipeline YAML open in the editor showing:
 * Publish stage
 * Deploy stage
 
-Add your screenshot here.
+![alt text](screenshots/03_02_a.png)
 
 > Do not expose passwords, private keys, tokens, or cloud credentials.
 
@@ -104,7 +104,7 @@ Add a screenshot of one Azure DevOps pipeline run showing all four stages succee
 * Publish
 * Deploy
 
-Add your screenshot here.
+![alt text](screenshots/03_03.png)
 
 ---
 
@@ -122,7 +122,7 @@ Add a screenshot of the pipeline SSH verification log or VM terminal showing the
 
 `/var/www/html`
 
-Add your screenshot here.
+![alt text](screenshots/03_04.png)
 
 ---
 
@@ -143,15 +143,15 @@ Add a browser screenshot showing:
 * Your Full Name
 * Deployment date
 
-Add your screenshot here.
+![alt text](screenshots/03_02_c.png)
 
 ## Final Application URL
 
-`http://<vm-public-ip>`
+`http://http://3.95.8.243
 
 Replace the placeholder and paste your final application URL below:
 
-[Paste your final application URL here.]
+http://http://3.95.8.243
 
 ---
 
@@ -159,7 +159,7 @@ Replace the placeholder and paste your final application URL below:
 
 Write a short explanation of the CI/CD workflow you created.
 
-[Write your summary here.]
+In this assignment, I configured a **multi-stage Azure DevOps CI/CD pipeline to automate the deployment of a React application to an AWS EC2 instance**. I used Terraform to provision the Ubuntu server and Ansible to install and configure Nginx. The pipeline was designed with four stages: **Build, Test, Publish, and Deploy**. The Build stage installs dependencies and compiles the React application, the Test stage runs automated tests, the Publish stage prepares the production build as a deployment artifact, and the Deploy stage transfers the artifact to the EC2 server using an SSH service connection. The pipeline automatically triggers when changes are pushed to the `main` branch. Overall, this lab strengthened my understanding of **multi-stage CI/CD pipelines, artifact management, automated testing, Infrastructure as Code, and application deployment automation**.
 
 ---
 
@@ -174,11 +174,12 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+![alt text](screenshots/LinkedIn-post-screenshot-1.png)
+![alt text](screenshots/LinkedIn-post-screenshot-2.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+https://www.linkedin.com/posts/ransfordselormdzandu_devopsabrengineering-cloudabrengineering-share-7526724075852013569-i-xr/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
 
 > Do not expose VM passwords, tokens, private keys, cloud credentials, or other sensitive information.
 

@@ -36,7 +36,7 @@ Add a screenshot of Azure Repos showing:
 * Project files
 * `index.html`
 
-Add your screenshot here.
+![alt text](screenshots/02_01.png)
 
 ---
 
@@ -65,7 +65,7 @@ Add a screenshot of the saved SSH Service Connection **Overview** page showing:
 * Service Connection name
 * SSH connection type
 
-Add your screenshot here.
+![alt text](screenshots/02_02.png)
 
 > Do not expose a password, SSH private key, passphrase, or another credential.
 
@@ -91,7 +91,7 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * `CopyFilesOverSSH@0` task
 * `SSH@0` verification task
 
-Add your screenshot here.
+![alt text](screenshots/02_03.png)
 
 > Ensure that no password, SSH private key, PAT, or AWS credential is visible.
 
@@ -115,7 +115,7 @@ Add a screenshot of the successful pipeline run and log summary showing:
 * Remote-verification step completed
 * Your Full Name visible in the pipeline output
 
-Add your screenshot here.
+![alt text](screenshots/02_04.png)
 
 ---
 
@@ -136,11 +136,11 @@ Add a browser screenshot showing:
 * Your Full Name
 * Updated website content after the automatic deployment
 
-Add your screenshot here.
+![alt text](screenshots/02_05.png)
 
 ## Final Website URL
 
-`http://<target-vm-public-ip>`
+`http://http://3.95.8.243
 
 Replace the placeholder with your actual website URL:
 
@@ -152,7 +152,7 @@ Replace the placeholder with your actual website URL:
 
 Write a short summary of the completed CI/CD workflow.
 
-[Write your summary here.]
+In this assignment, I configured an **automated CI/CD pipeline using Azure DevOps to deploy a static website to an AWS EC2 instance**. I used Terraform to provision the EC2 infrastructure and Ansible to install and configure Nginx as the web server. I also imported the website source code into Azure Repos, configured an SSH service connection, and created a YAML pipeline using a self-hosted agent to transfer website files to `/var/www/html` and verify the deployment. The pipeline was configured to trigger automatically whenever code changes were pushed to the repository. Overall, this lab strengthened my understanding of **Infrastructure as Code (IaC), configuration management, CI/CD automation, and cloud-based website deployment**.
 
 ---
 
@@ -167,11 +167,12 @@ Add a screenshot of your LinkedIn post containing:
 * Three to five lines describing the CI/CD workflow
 * A screenshot of the successful pipeline or deployed website
 
-Add your screenshot here.
+![alt text](screenshots/LinkedIn-post-screenshot-1.png)
+![alt text](screenshots/LinkedIn-post-screenshot-2.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here]
+https://www.linkedin.com/posts/ransfordselormdzandu_devopsabrengineering-cloudabrengineering-share-7526724075852013569-i-xr/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
 
 > Do not expose AWS credentials, SSH private keys, passwords, PATs, or other sensitive information.
 
