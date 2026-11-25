@@ -172,7 +172,7 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 
 Paste your LinkedIn post URL here:
 
-Add your URL here...
+https://www.linkedin.com/posts/ransfordselormdzandu_devopsabrengineering-cloudabrengineering-share-7489096304552263680-XVD7/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwl7_QBxhr73Ja5tGLqw7xByGHiHbrAk08
 
 #### Screenshot 16 — LinkedIn post published with the Git branching workflow summary
 
