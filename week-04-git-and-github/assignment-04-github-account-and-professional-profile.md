@@ -80,7 +80,7 @@ Share your GitHub learning progress on WhatsApp Status, including your generated
 
 #### Screenshot 7 — Published WhatsApp Status showing your GitHub setup message and generated DMI leaderboard progress link
 
-Add your screenshot here.
+![alt text](<screenshots/Screenshot 2026-11-25 092908.png>)
 
 ---
 
