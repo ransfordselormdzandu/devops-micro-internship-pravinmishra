@@ -78,7 +78,7 @@ Share your Git setup progress on WhatsApp Status, including your generated DMI l
 
 #### Screenshot 5 — Published WhatsApp Status showing your Git setup message and leaderboard progress link
 
-Add your screenshot here.
+![alt text](screenshots/01_04.png)
 
 ---
 
